@@ -1,5 +1,18 @@
 const about = () => {
-  return <div></div>;
+  return <div>
+
+    <h1>About Page Is In Development</h1>
+  </div>;
 };
+
+<style jsx>{
+    `
+    h1{
+      text-align:center
+    }
+    `
+}
+
+</style>
 
 export default about;

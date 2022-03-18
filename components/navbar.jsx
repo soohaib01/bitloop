@@ -13,10 +13,10 @@ const navbar = () => {
         />
         <ul className={Nav.Listing}>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/">React Backend</Link></li>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/">Home</Link></li>
+          <li><Link href="/reactBakend">React Backend</Link></li>
+          <li><Link href="/about">About</Link></li>
+          <li><Link href="/LandingOne">Landing</Link></li>
+          <li><Link href="/LandingOne">Landing Two</Link></li>
         </ul>
       </div>
       <div className={Nav.RightContainer}>
