@@ -48,18 +48,18 @@
   .SectionOne {
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 2rem;
     justify-content: center;
     align-items: center;
 
-    margin-right: 10px;
+    margin-right: 0px;
   }
   .Content {
     margin-top: 2rem;
   }
   .SecondHeading {
     font-size: 2rem;
-    color: red;
+    color: black;
     text-align: center;
     margin-left: 15px;
   }

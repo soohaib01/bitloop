@@ -55,4 +55,7 @@
   .Listing {
     margin-left: 10px;
   }
+  .RightContainer {
+    display: none;
+  }
 }

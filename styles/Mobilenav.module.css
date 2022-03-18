@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@300&display=swap");
+
+.Holder {
+  background: #fff;
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  transform: translateX(-100%);
+}
+.Menu {
+  position: relative;
+  top: 13%;
+  left: 4%;
+}
+
+.Menu > ul > li {
+  list-style: none;
+  margin-top: 20px;
+  font-family: "Mulish", sans-serif;
+
+  font-size: 1.7rem;
+}
+.Logo {
+  display: none;
+}
+.toggleBTn {
+  position: absolute;
+  top: 3%;
+  display: none;
+  right: 5%;
+}
+
+@media screen and (max-width: 992px) {
+  .Holder {
+    display: block;
+    transition: 0.5s ease-in-out;
+    transform: translateX(0);
+  }
+  .toggleBTn {
+    display: block;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: none;
+  }
+  .Logo {
+    display: block;
+  }
+}
