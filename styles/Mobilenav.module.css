@@ -2,10 +2,11 @@
 
 .Holder {
   background: #fff;
-  width: 100vw;
-  position: fixed;
+  width: 100%;
+  position: absolute;
   height: 100vh;
   top: 0;
+  overflow: hidden;
   transform: translateX(-100%);
 }
 .Menu {

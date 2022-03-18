@@ -77,7 +77,7 @@
     min-height: 40vh;
     margin-top: -5rem;
     margin-right: 30px;
-    margin-left: 30px;
+    margin-left: 28px;
     padding: 20px;
 
     border-radius: 5px;
@@ -91,6 +91,7 @@
   .CenterSide {
     height: 40vh;
     width: 100%;
+    margin-left: 5px;
   }
   .Banner {
     width: 100vw;

@@ -61,7 +61,7 @@
     margin-top: 30px;
     font-family: "Mulish", "sans-sarif";
     font-size: 1rem;
-
+    margin-left: 15px;
     text-align: center;
   }
   .HeadingContainer {
@@ -70,21 +70,22 @@
   .Headingmain {
     font-family: "Mulish", sans-serif;
     font-weight: 800;
-
+    margin-left: 15px;
     color: #151a1e;
     font-size: 3rem;
     text-align: center;
   }
   .BtnOne {
-    margin-left: 20%;
+    margin-left: 5rem;
   }
   .BesideBtn {
-    margin-left: 20%;
     margin-top: 20px;
+    margin-left: 5rem;
   }
   .ImageContainer > img {
-    width: 550px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
+
     margin-top: 2rem;
   }
 }

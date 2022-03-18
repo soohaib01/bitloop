@@ -38,13 +38,16 @@
     align-items: center;
     margin-top: 4rem;
     background: #eee;
-    margin-left: 0px;
+    margin-left: 17px;
+    box-shadow: none;
+    border-radius: 5px;
   }
   .banner {
     display: none;
   }
   .DesingAccordion {
     margin: 40px;
+
     width: 100%;
   }
   .Title {
