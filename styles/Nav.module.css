@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@300&display=swap");
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+.Listing {
+  display: flex;
+}
+.Listing > li {
+  list-style-type: none;
+  margin: 10px;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  color: #37373f !important;
+  letter-spacing: 1px;
+}
+
+.LogoContain {
+  width: 150px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.BtnStyleOne {
+  font-size: 1rem;
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  background: #7700e5;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 1px;
+  margin-left: 5px;
+}
+.BtnStyleOne:hover {
+  background: #3703a0;
+  transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 992px) {
+  .mainContainer {
+    display: none;
+  }
+}

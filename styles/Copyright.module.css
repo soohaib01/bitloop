@@ -1,0 +1,16 @@
+.Container {
+  min-height: 20vh;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+}
+.YearHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FooterLogo {
+  width: 220px;
+  height: 80px;
+  margin-left: 15px;
+}

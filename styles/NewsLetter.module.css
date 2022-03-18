@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@300&display=swap");
+
+.Section {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: "Mulish", sans-serif;
+}
+.Section > h1 {
+  font-size: 3rem;
+}
+.Section > p {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.BtnOne {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  background: #7404e4;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .Section > h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .Section > p {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}

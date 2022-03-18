@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@300&display=swap");
+
+.headingDesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.Heading {
+  font-size: 3rem;
+}
+.Content {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 1.2rem;
+}
+.CardParent {
+  background: #fff;
+  box-shadow: 2px 2px 5px 5px #eee;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.CardImage {
+  width: 400px;
+  border-radius: 10px;
+  height: 200px;
+}
+.CardImage:hover {
+  transform: translateY(-20px);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+.CardParent:hover {
+  transform: translateY(-20px);
+  transition: 0.3s ease-in;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  cursor: pointer;
+}
+
+.CardParent {
+  width: 28rem;
+}
+.CardBoxes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.Title,
+.CardContent {
+  font-family: "Mulish", sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+.Title {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 992px) {
+  .CardBoxes {
+    display: flex;
+    flex-direction: column;
+  }
+  .CardParent {
+    margin-top: 2rem;
+  }
+  .Heading {
+    font-size: 2rem;
+    width: 80%;
+  }
+  .Content {
+    font-size: 1rem;
+    width: 80%;
+  }
+}

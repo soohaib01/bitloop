@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@300&display=swap");
+
+.Banner {
+  transform: translateY(-140px);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  box-shadow: 5px 5px 2px 2px #eee;
+  min-height: 40vh;
+  margin-top: 4rem;
+  padding: 20px;
+  border-radius: 5px;
+}
+.Banner:hover {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.CenterSide {
+  box-shadow: 5px 5px 2px 2px #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7404e4;
+  height: 30vh;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-top: 19rem;
+}
+.RightSideHeading {
+  font-family: "Mulish", sans-serif;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.RightSidedesc {
+  font-family: "Mulish", sans-serif;
+  padding: 3px;
+}
+.RightSideSupport {
+  color: black;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  margin-top: 1.2rem;
+}
+
+.RightSideCta {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #7404e4;
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  width: 7rem;
+}
+
+.RightSideImage:hover {
+  transform: translateY(-20px);
+  transition: 0.5s ease-in;
+}
+
+@media screen and (max-width: 992px) {
+  .Banner {
+    transform: translateY(-140px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #eee;
+    box-shadow: 5px 5px 2px 2px #eee;
+    min-height: 40vh;
+    margin-top: 4rem;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .RightSideImage {
+    display: none;
+  }
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;800&family=Poppins:wght@300&display=swap");
+.TopContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.Headingmain {
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  color: #151a1e;
+  font-size: 4rem;
+}
+.HeadingContainer {
+  width: 40rem;
+}
+.HeadingContainer {
+  margin-top: 2rem;
+}
+.Content {
+  margin-top: 30px;
+  font-family: "Mulish", "sans-sarif";
+  font-size: 1.7rem;
+}
+.BtnOne {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  background: #7700e5;
+  font-family: "Mulish", "sans-sarif";
+  color: white;
+  cursor: pointer;
+}
+.BesideBtn {
+  font-family: "Mulish", "sans-sarif";
+  font-weight: 550;
+  background: none;
+  cursor: pointer;
+  margin-left: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .TopContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .Content {
+    margin-top: 30px;
+    font-family: "Mulish", "sans-sarif";
+    font-size: 1rem;
+
+    text-align: center;
+  }
+  .HeadingContainer {
+    width: auto;
+  }
+  .Headingmain {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    color: #151a1e;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .BtnOne {
+    margin-left: 2rem;
+  }
+  .ImageContainer > img {
+    width: 550px;
+    height: 400px;
+    margin-top: 2rem;
+  }
+}
