@@ -5,6 +5,9 @@
   align-items: center;
   margin-top: 50px;
 }
+.ColorFull {
+  color: #7700e5;
+}
 .Headingmain {
   font-family: "Mulish", sans-serif;
   font-weight: 800;
@@ -67,12 +70,17 @@
   .Headingmain {
     font-family: "Mulish", sans-serif;
     font-weight: 800;
+
     color: #151a1e;
     font-size: 3rem;
     text-align: center;
   }
   .BtnOne {
-    margin-left: 2rem;
+    margin-left: 20%;
+  }
+  .BesideBtn {
+    margin-left: 20%;
+    margin-top: 20px;
   }
   .ImageContainer > img {
     width: 550px;

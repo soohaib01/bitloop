@@ -38,17 +38,19 @@
     align-items: center;
     margin-top: 4rem;
     background: #eee;
+    margin-left: 0px;
   }
   .banner {
     display: none;
   }
   .DesingAccordion {
     margin: 40px;
-    width: 90%;
+    width: 100%;
   }
   .Title {
     text-align: center;
     margin-top: 4rem;
+    margin-left: 10px;
     font-size: 2rem;
     text-transform: capitalize;
   }

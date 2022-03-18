@@ -51,8 +51,16 @@
     margin-top: 4rem;
     justify-content: center;
     align-items: center;
+    margin: 2px;
+    margin-right: 10px;
   }
   .Content {
     margin-top: 2rem;
+  }
+  .SecondHeading {
+    font-size: 2rem;
+    color: red;
+    text-align: center;
+    margin-left: 15px;
   }
 }

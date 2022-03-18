@@ -52,4 +52,7 @@
   .mainContainer {
     display: none;
   }
+  .Listing {
+    margin-left: 10px;
+  }
 }

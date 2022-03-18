@@ -29,10 +29,13 @@
   align-items: center;
   border-radius: 10px;
 }
+.ColorFull {
+  color: #7700e5;
+}
 .CardImage {
   width: 400px;
   border-radius: 10px;
-  height: 200px;
+  height: 300px;
 }
 .CardImage:hover {
   transform: translateY(-20px);
@@ -74,13 +77,28 @@
   }
   .CardParent {
     margin-top: 2rem;
+    margin-left: 2rem;
   }
+
   .Heading {
     font-size: 2rem;
     width: 80%;
+    margin-left: 3s0px;
   }
   .Content {
     font-size: 1rem;
-    width: 80%;
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .CardImage {
+    width: 300px;
+    border-radius: 10px;
+    height: 200px;
+  }
+  .CardParent {
+    width: 20rem;
+
+    margin-left: 10px;
   }
 }

@@ -19,7 +19,7 @@ const info = () => {
      </div>
      <div className={InfoStyle.Content}>
      <span className={InfoStyle.Count}>03</span>
-     <h1 className={InfoStyle.Heading}>Scalable & Extendable</h1>
+     <h1 className={InfoStyle.Heading}>Scalable</h1>
      <p className={InfoStyle.ContentBelow}>Scalable & extendable platform for all your development needs irrespective of your size.</p>
      </div>
      <div className={InfoStyle.Content}>

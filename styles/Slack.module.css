@@ -20,6 +20,7 @@
 .CenterSide {
   box-shadow: 5px 5px 2px 2px #eee;
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   background: #7404e4;
@@ -76,9 +77,23 @@
     min-height: 40vh;
     margin-top: 4rem;
     padding: 20px;
+
     border-radius: 5px;
   }
   .RightSideImage {
     display: none;
+  }
+  .Colorfull {
+    color: #7700e5 !important;
+  }
+  .CenterSide {
+    height: 40vh;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .Banner {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
   }
 }

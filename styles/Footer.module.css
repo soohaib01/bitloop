@@ -29,9 +29,10 @@
   .Listings {
     display: grid;
     column-gap: 30px;
+    margin-left: 65px;
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 3rem;
+    margin-left: 6rem;
   }
   .Listings > ul > li {
     margin-right: 9rem;
@@ -45,5 +46,8 @@
     font-size: 1.2rem;
     margin-top: 20px;
     font-weight: bold !important;
+  }
+  .FooterContainer {
+    display: none;
   }
 }
