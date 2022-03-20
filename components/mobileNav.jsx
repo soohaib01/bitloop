@@ -7,20 +7,8 @@ import { useRouter } from 'next/router'
 
 
 const mobileNav = () => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const router = useRouter()
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  useEffect(() => {
-    const handleRouteChange = (url, { shallow }) => {
-      setRenderingSize(!renderingSize)
-    }
-    router.events.on('routeChangeStart', handleRouteChange)
+ 
 
-
-    return () => {
-      router.events.off('routeChangeStart', handleRouteChange)
-    }
-  }, [])
 
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [renderingSize , setRenderingSize] = useState(true)
