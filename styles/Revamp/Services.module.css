@@ -41,6 +41,10 @@
   font-size: 2rem;
   padding-bottom: 20px;
 }
+.RightSideContainer > h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
 .LeftSideContent > ul {
   padding-bottom: 1.3rem;
 }
