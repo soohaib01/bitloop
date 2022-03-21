@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@400;500;700;900&display=swap");
+.GrayText {
+  margin-top: 5rem;
+  color: gray;
+  word-spacing: 5px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.Heading {
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin-top: 20px;
+  word-spacing: 5px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+.InfoContainer {
+  align-items: center;
+  display: flex;
+  margin-top: 5rem;
+}
+.ServiceOneImage {
+  width: 500px;
+  height: 350px;
+  margin-top: 20px;
+}
+.LeftSideContent {
+  width: 40%;
+  margin-left: 22rem;
+}
+.RightSideContainer {
+  width: 50%;
+  padding-left: 1rem;
+}
+.LeftSideContent > h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+.LeftSideContent > ul {
+  padding-bottom: 1.3rem;
+}
+.RightSideContainer > ul > li {
+  list-style: none;
+  letter-spacing: 1.2px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.LeftSideContent > ul > li {
+  list-style: none;
+  letter-spacing: 1.2px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.Content > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+.CommentBox {
+  width: 400px;
+  height: 200px;
+  background: red;
+  position: absolute;
+  top: 110%;
+  right: 30%;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px #eee;
+}
+.TopHeader {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background: #eee;
+}
+.Commentheading {
+  padding: 10px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.MakeBox {
+  border: 1px solid #ccc;
+  padding: 2px;
+  border-radius: 4px;
+}
+.ContentBelow {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.ContentBelow1 {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.MakeBlue {
+  background: #bfcfe5;
+  color: #3e78d2;
+  padding: 2px;
+  border-radius: 2px;
+}
+@media screen and (max-width: 1800px) {
+  .CommentBox {
+    width: 400px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    top: 130%;
+    right: 25%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #eee;
+  }
+  .LeftSideContent {
+    width: 40%;
+    margin-left: 19rem;
+  }
+  .RightSideContainer {
+    width: 50%;
+    padding-left: 1rem;
+  }
+}

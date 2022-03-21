@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@300&display=swap");
+
 .Parent {
   display: flex;
   justify-content: center;
@@ -9,12 +11,24 @@
   margin: 10rem;
   padding: 20px;
 }
+.Heading {
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+}
+.Color {
+  color: #881fe8;
+}
 .Content {
   margin-top: 20px;
 }
 .Content > p {
   text-align: center;
+  font-family: "Mulish", sans-serif;
 }
 .ContentBreaker {
   margin-top: 20px;
+}
+.ContentBreaker > p {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
 }

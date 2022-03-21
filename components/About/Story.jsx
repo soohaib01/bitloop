@@ -4,7 +4,7 @@ const Story = () => {
   return (
     <div>
         <div className={StoryStyles.Parent}>
-  <h1 className={StoryStyles.Heading}>Hello</h1>
+  <h1 className={StoryStyles.Heading}>The <span className={StoryStyles.Color}>Bitloops</span>  Story</h1>
    <div className={StoryStyles.Content}>
   <p>The founding team struggled for many years across many tech companies with the same issue: deploying new features, improving existing ones or launching new services or products is complex, requires multiple alignments between stakeholders, takes forever to be deployed and ends up being very expensive. In essence, technical debt and legacy issues quickly catch up with any tech company, reducing innovation, creativity and time to market, as well as reducing the attractiveness of the job itself.</p>
    </div>

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import MainSection from "../components/Home/mainsection";
-import Service from "../components/Home/services";
+import Service from "../components/Home/ServicesRevamp";
 import InfoSection from "../components/Home/info";
 import Slack from "../components/Home/slackBanner";
 import Accordion from "../components/accordion";
@@ -21,13 +21,13 @@ export default function Home() {
       {/* Services Section Component  */}
       <Service />
       {/* Why Bitloops Using Section  */}
-      <InfoSection />
+      {/* <InfoSection /> */}
       {/* slack banner component  */}
-      <Slack />
+      {/* <Slack /> */}
       {/* Accordian Component  */}
-      <Accordion />
+      {/* <Accordion /> */}
       {/* Sign Up Action box Before Footer  */}
-      <Actionbox />
+      {/* <Actionbox /> */}
     </div>
   );
 }
