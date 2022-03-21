@@ -54,7 +54,9 @@ const ServicesRevamp = () => {
         }}>
        
         </div>
-        <div className={Styles.InfoContainer}>
+        <div className={Styles.InfoContainer} style={{
+            marginTop:'1rem',
+        }}>
            <div className={Styles.LeftSideContent}>
            <img src="/backend.png" alt="Backend Service Image" className={Styles.ServiceOneImage} />
                    <div className={Styles.CommentBox}>
@@ -79,7 +81,9 @@ const ServicesRevamp = () => {
            </div>
                </div>
         </div>
-        <div className={Styles.InfoContainer}>
+        <div className={Styles.InfoContainer} style={{
+            marginTop:'1rem',
+        }}>
            <div className={Styles.LeftSideContent}>
                <h2>Backend-as-a-Service</h2> 
              
@@ -104,7 +108,9 @@ const ServicesRevamp = () => {
                    </div>
                </div>
         </div>
-        <div className={Styles.InfoContainer}>
+        <div className={Styles.InfoContainer} style={{
+            marginTop:'1rem',
+        }}>
            <div className={Styles.LeftSideContent}>
            <img src="/backend.png" alt="Backend Service Image" className={Styles.ServiceOneImage} />
                    <div className={Styles.CommentBox}>

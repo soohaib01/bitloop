@@ -21,7 +21,7 @@ export default function Home() {
       {/* Services Section Component  */}
       <Service />
       {/* Why Bitloops Using Section  */}
-      {/* <InfoSection /> */}
+      <InfoSection />
       {/* slack banner component  */}
       {/* <Slack /> */}
       {/* Accordian Component  */}
