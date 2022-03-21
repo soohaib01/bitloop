@@ -46,7 +46,7 @@ const footer = () => {
        </div>
       </div>
 
-      <Copyright/>
+      {/* <Copyright/> */}
     </div>
 
   )

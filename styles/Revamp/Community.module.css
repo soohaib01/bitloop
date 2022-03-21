@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@400;500;700;900&display=swap");
+
+.HeadingAc {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  text-align: center;
+  margin-top: 6rem;
+}
+.Icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  box-shadow: 2px 2px 2px 2px #eee;
+}
+.Icon {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.Boxes {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 1rem; */
+  align-items: center;
+}
+.NestedBox {
+  margin: 9rem;
+}
+
+.NestedBox > h3 {
+  margin-top: 20px;
+}
