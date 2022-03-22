@@ -122,6 +122,38 @@
     margin-top: 2rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .HeadingContainer {
+    text-align: center;
+  }
+  .Headingmain {
+    margin-left: 11rem;
+    width: 100%;
+    font-size: 4rem;
+  }
+  .HeadingContainer > h1 {
+    font-size: 4rem;
+  }
+  .HeadingContainer > p {
+    font-size: 2rem;
+  }
+  .BtnOne {
+    width: 100%;
+    margin-left: 10em;
+  }
+  .BesideBtn {
+    width: 100%;
+    border: none;
+    margin-left: 11em;
+  }
+  .Content {
+    width: 100%;
+    margin-top: 30px;
+    font-family: "Mulish", "sans-sarif";
+    font-size: 1rem;
+    margin-left: 11rem;
+  }
+}
 @media screen and (max-width: 1370px) {
   .ImageContainer > img {
     width: 500px;
