@@ -58,3 +58,9 @@
     text-transform: capitalize;
   }
 }
+@media screen and (max-width: 1370px) {
+  .banner {
+    width: 500px;
+    height: 400px;
+  }
+}
