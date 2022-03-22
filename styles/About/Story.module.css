@@ -1,14 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@400;500;700;900&display=swap");
 .Parent {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #eee;
+  background: #fff;
   flex: 1;
   flex-direction: column;
   /* margin-top: 4rem; */
-  margin: 10rem;
+  margin: 8rem;
   padding: 20px;
 }
 .Heading {
@@ -20,13 +19,17 @@
 }
 .Content {
   margin-top: 20px;
+  font-family: "Poppins", sans-serif;
 }
 .Content > p {
   text-align: center;
-  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
 }
 .ContentBreaker {
+  font-family: "Poppins", sans-serif;
   margin-top: 20px;
+  font-size: 1.3rem;
 }
 .ContentBreaker > p {
   text-align: center;

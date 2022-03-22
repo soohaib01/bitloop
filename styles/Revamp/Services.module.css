@@ -45,16 +45,8 @@
   font-size: 2rem;
   padding-bottom: 20px;
 }
-.LeftSideContent > ul {
-  padding-bottom: 1.3rem;
-}
+
 .RightSideContainer > ul > li {
-  list-style: none;
-  letter-spacing: 1.2px;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
-}
-.LeftSideContent > ul > li {
   list-style: none;
   letter-spacing: 1.2px;
   font-family: "Poppins", sans-serif;
@@ -129,5 +121,24 @@
   .RightSideContainer {
     width: 50%;
     padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .InfoContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .CommentBox {
+    display: none;
+  }
+  .LeftSideContent {
+    width: 90%;
+    margin-left: 0rem;
+  }
+  .ServiceOneImage {
+    /* display: none; */
   }
 }
