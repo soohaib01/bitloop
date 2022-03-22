@@ -28,7 +28,7 @@
 .toggleBTn {
   position: absolute;
   top: 3%;
-  left: 180%;
+  left: 160%;
 }
 
 @media screen and (max-width: 992px) {
