@@ -94,6 +94,7 @@ const accordion = () => {
         </Accordion>
         </div>
         <div className={StyleAcc.RightSide}>
+      
        <img src="/faq.jpg" alt=""  className={StyleAcc.banner}/>
      
         </div>

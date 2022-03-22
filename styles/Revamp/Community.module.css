@@ -29,6 +29,7 @@
 }
 .NestedBox {
   margin: 9rem;
+  margin-top: 3rem;
 }
 
 .NestedBox > h3 {
