@@ -60,7 +60,6 @@
 .CommentBox {
   width: 400px;
   height: 200px;
-  background: red;
   position: absolute;
   top: 118%;
   right: 25%;
@@ -140,5 +139,25 @@
   }
   .ServiceOneImage {
     /* display: none; */
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .LeftSideContent {
+    width: 40%;
+    margin-left: 10rem;
+  }
+  .CommentBox {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 155%;
+    right: 25%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #eee;
+  }
+  .RightSideContainer {
+    margin-right: 2rem;
   }
 }

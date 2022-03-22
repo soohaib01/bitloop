@@ -2,11 +2,11 @@
 .Main {
   position: absolute;
   left: 18%;
-  top: 10%;
+  top: 12%;
 }
 .Box {
   width: 70rem;
-  height: 370px;
+  height: 310px;
   background: #fff;
   border-radius: 5px;
   display: flex;
@@ -84,4 +84,6 @@
 }
 .OneLink {
   margin-top: 1.2rem;
+}
+@media screen and (max-width: 1336px) {
 }

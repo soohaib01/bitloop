@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@400;500;700;900&display=swap");
+.Icon {
+  width: 80px;
+  margin-bottom: 2rem;
+  height: 80px;
+}
+.Content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.Content > p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+}
+.Content > h3 {
+  margin-top: 1.1rem;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+.Icon:hover {
+  /* transform: translateY(-20px); */
+  transform: rotate(360deg);
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+.MainContainer {
+  background: #f4f4f4;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.SetWidth {
+  width: 95%;
+  display: flex;
+}
+@media screen and (max-width: 992px) {
+  .SetWidth {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MainContainer {
+    background: #eee;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+}

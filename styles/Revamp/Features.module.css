@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@400;500;700;900&display=swap");
+
+.Icon {
+  width: 80px;
+  height: 80px;
+}
+.HeadingOne {
+  margin-top: 5rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.BoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.Icon:hover {
+  box-shadow: 5px 5px 5px 5px #eee;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.ActualBoxes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ActualBoxes > p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 80%;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.ActualBoxes > h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
