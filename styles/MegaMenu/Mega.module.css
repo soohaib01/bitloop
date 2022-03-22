@@ -5,12 +5,10 @@
   top: 12%;
 }
 .Box {
-  width: 70rem;
   height: 310px;
   background: #fff;
   border-radius: 5px;
   display: flex;
-  box-shadow: 2px 5px 5px 5px #eee;
 }
 .HalfBoxs {
   width: 34rem;
