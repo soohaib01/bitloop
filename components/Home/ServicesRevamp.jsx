@@ -37,7 +37,11 @@ const ServicesRevamp = () => {
            </div>
                </div> 
                <div className={Styles.RightSideContainer}>
-                   <img src="/backend.png" alt="Backend Service Image" className={Styles.ServiceOneImage} />
+                   <img src="/placeholderOne.jpg" alt="Backend Service Image" className={Styles.ServiceOneImage}
+                   style={{
+                       marginLeft:'8rem',
+                   }}
+                   />
                    <div className={Styles.CommentBox}>
                        <div className={Styles.TopHeader}>
              <h3 className={Styles.Commentheading}>Lorem <span className={Styles.MakeBox}>ipsum</span> dolor sit amet.</h3>
@@ -58,7 +62,7 @@ const ServicesRevamp = () => {
             marginTop:'1rem',
         }}>
            <div className={Styles.LeftSideContent}>
-           <img src="/backend.png" alt="Backend Service Image" className={Styles.ServiceOneImage} />
+           <img src="/placeholderOne.jpg" alt="Backend Service Image" className={Styles.ServiceOneImage} />
                    <div className={Styles.CommentBox}>
                        <div className={Styles.TopHeader}>
              <h3 className={Styles.Commentheading}>Lorem <span className={Styles.MakeBox}>ipsum</span> dolor sit amet.</h3>
@@ -97,7 +101,10 @@ const ServicesRevamp = () => {
            </div>
                </div> 
                <div className={Styles.RightSideContainer}>
-                   <img src="/backend.png" alt="Backend Service Image" className={Styles.ServiceOneImage} />
+                   <img src="/placeholderOne.jpg" alt="Backend Service Image" className={Styles.ServiceOneImage}
+                    style={{
+                        marginLeft:'8rem',
+                    }} />
                    <div className={Styles.CommentBox}>
                        <div className={Styles.TopHeader}>
              <h3 className={Styles.Commentheading}>Lorem <span className={Styles.MakeBox}>ipsum</span> dolor sit amet.</h3>
@@ -112,7 +119,7 @@ const ServicesRevamp = () => {
             marginTop:'1rem',
         }}>
            <div className={Styles.LeftSideContent}>
-           <img src="/backend.png" alt="Backend Service Image" className={Styles.ServiceOneImage} />
+           <img src="/placeholderOne.jpg" alt="Backend Service Image" className={Styles.ServiceOneImage} />
                    <div className={Styles.CommentBox}>
                        <div className={Styles.TopHeader}>
              <h3 className={Styles.Commentheading}>Lorem <span className={Styles.MakeBox}>ipsum</span> dolor sit amet.</h3>

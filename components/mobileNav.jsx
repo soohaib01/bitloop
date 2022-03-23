@@ -50,6 +50,7 @@ const mobileNav = () => {
        
       }} />
       </Link>
+      
       <button className={NavStyle.toggleBTn} onClick={handleClick}>
       <FontAwesomeIcon
         icon={renderingSize ? faBars : faXmark}
