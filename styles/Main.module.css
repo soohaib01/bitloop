@@ -108,11 +108,11 @@
     text-align: center;
   }
   .BtnOne {
-    margin-left: 3rem;
+    margin-left: 2rem !important;
   }
   .BesideBtn {
     margin-top: 20px;
-    margin-left: 3rem;
+    margin-left: 2rem !important;
   }
   .ImageContainer > img {
     width: 300px !important;

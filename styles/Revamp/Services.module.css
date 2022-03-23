@@ -124,9 +124,7 @@
     padding-left: 1rem;
   }
 }
-.Content {
-  margin: 20px;
-}
+
 @media screen and (max-width: 992px) {
   .MainContainer {
     display: none;
