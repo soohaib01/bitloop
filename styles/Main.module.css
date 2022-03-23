@@ -108,17 +108,17 @@
     text-align: center;
   }
   .BtnOne {
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
   .BesideBtn {
     margin-top: 20px;
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
   .ImageContainer > img {
-    width: 400px;
-    margin-top: 2rem;
-    height: 250px;
-
+    width: 300px !important;
+    margin-top: 5rem !important;
+    height: 200px !important;
+    margin-right: 20px !important;
     margin-top: 2rem;
   }
 }
@@ -144,7 +144,7 @@
   }
   .BtnOne {
     width: 100%;
-    margin-left: 5em;
+    margin-left: 2em;
     font-size: 2rem;
   }
   .BesideBtn {

@@ -61,7 +61,7 @@ const mobileNav = () => {
       
       <button className={NavStyle.toggleBTn} onClick={handleClick}>
       <FontAwesomeIcon
-        icon={renderingSize ? faBars : faXmark}
+        icon={faBars}
         style={{ fontSize: 35, color: "black",zIndex:'10000',}}
       />
 </button>    
