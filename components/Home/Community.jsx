@@ -12,7 +12,10 @@ const Community = () => {
        <h3>Twitter.com/bitloop</h3>
        </div>
        <div className={Styles.NestedBox}>
-       <img src="/discord.jpg" alt="" className={Styles.Icon} />
+       <img src="/discord.jpg" alt="" className={Styles.Icon} style={{
+       
+       marginTop:'2px !important', 
+       }}/>
        <h3>Twitter.com/bitloop</h3>
        </div>
        <div className={Styles.NestedBox}>

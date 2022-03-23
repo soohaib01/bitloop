@@ -122,17 +122,17 @@
     margin-top: 2rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900) {
   .HeadingContainer {
     text-align: center;
   }
-  .ImageContainer > img {
-    width: 100%;
-    margin-left: 20rem;
+  .ImageContainer > .Image {
+    width: 200px !important;
   }
   .Headingmain {
     margin-left: 11rem;
     width: 100%;
+    margin-top: -10px;
     font-size: 4rem;
   }
   .HeadingContainer > h1 {

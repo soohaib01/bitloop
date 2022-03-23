@@ -55,10 +55,13 @@
   }
   .makeBoxFlex {
     display: flex;
+
     justify-content: space-between;
-    margin: 20px;
+    /* margin: 20px; */
   }
   .Logo {
+    width: 140px;
+    height: 50px;
     display: block;
   }
 }

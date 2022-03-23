@@ -142,6 +142,75 @@ const ServicesRevamp = () => {
            </div>
                </div>
         </div>
+
+        <div className={Styles.MobileContainer}>
+            <p>SHIP FAST. SHIP BETTER.
+</p>
+<h2>
+Lorem ipsum dolor sit
+amet consectetur adipisicing.
+</h2>
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/placeholderOne.jpg" alt="" style={{
+    height:'200px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/placeholderOne.jpg" alt="" style={{
+    height:'200px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/placeholderOne.jpg" alt="" style={{
+    height:'200px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/placeholderOne.jpg" alt="" style={{
+    height:'200px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
+        </div>
     </div>
   )
 }
