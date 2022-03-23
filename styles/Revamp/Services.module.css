@@ -238,7 +238,8 @@
 }
 .ContentMobile > h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.6rem;
   text-align: center;
 }
 .ContentMobile > p {
