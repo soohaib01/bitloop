@@ -48,6 +48,9 @@
   background: #3703a0;
   transition: 0.2s ease-in;
 }
+.RightContainer > .Listing {
+  margin-top: 2px;
+}
 @media screen and (max-width: 1100px) {
   .Listing > li {
     list-style-type: none;
