@@ -66,6 +66,10 @@
   color: white;
   cursor: pointer;
 }
+.BtnOne:hover {
+  background-color: #3703a0;
+  transform: 0.5s ease-in;
+}
 .BesideBtn {
   font-family: "Mulish", "sans-sarif";
   font-weight: 550;
@@ -110,6 +114,7 @@
   .BtnOne {
     margin-left: 1.2rem !important;
   }
+
   .BesideBtn {
     margin-top: 20px;
     margin-left: 1.2rem !important;
