@@ -52,7 +52,7 @@ const ServicesRevamp = () => {
                    </div>
                </div>
         </div>
-        </motion.div>
+   
         <div className={Styles.MainContainer} style={{
             paddingTop:'7rem',
         }}>
@@ -211,6 +211,7 @@ deployment, security and push notifications</p>
 }} />
         </div>
         </div>
+        </motion.div>
     </div>
   )
 }
