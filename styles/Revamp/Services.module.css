@@ -177,11 +177,14 @@
     display: none;
   }
   .ServiceOneImage {
-    display: none;
+    /* display: none; */
+  }
+  .InfoContainer {
+    display: flex;
   }
   .LeftSideContent {
-    width: 100%;
-    text-align: center;
+    width: 50%;
+
     margin-left: 0px;
   }
   .ServiceOneImage {

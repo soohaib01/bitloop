@@ -57,6 +57,7 @@
   cursor: pointer;
   margin-top: 4px;
   margin-left: 7px;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
 .Rounded {
@@ -66,7 +67,7 @@
 }
 .RightBox {
   width: 400px;
-  height: 400px;
+  height: 375px !important;
   background: #fff;
 }
 .Heading {
@@ -111,7 +112,7 @@
   }
   .RightBox {
     width: 200px;
-    height: 380px;
+    height: 386px;
     background: #fff;
   }
 }

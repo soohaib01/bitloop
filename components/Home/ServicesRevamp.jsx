@@ -103,7 +103,7 @@ const ServicesRevamp = () => {
                <div className={Styles.RightSideContainer}>
                    <img src="/placeholderOne.jpg" alt="Backend Service Image" className={Styles.ServiceOneImage}
                     style={{
-                        marginLeft:'8rem',
+                        marginLeft:'0rem',
                     }} />
                    <div className={Styles.CommentBox}>
                        <div className={Styles.TopHeader}>
