@@ -44,14 +44,10 @@ const mobileNav = () => {
     </div>
 
     </div>
-    <div>
+    <div className={NavStyle.makeBoxFlex}>
       <Link href="/">
       <img src="/logo.png" alt="Logo Place" className={NavStyle.Logo} style={{
-        width:'200px',
-        height:'50px',
-        left:'5%',
-        position:'absolute',
-        top:'2%'
+       
       }} />
       </Link>
       <button className={NavStyle.toggleBTn} onClick={handleClick}>

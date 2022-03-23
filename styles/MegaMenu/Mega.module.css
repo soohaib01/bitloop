@@ -83,5 +83,35 @@
 .OneLink {
   margin-top: 1.2rem;
 }
-@media screen and (max-width: 1336px) {
+@media screen and (max-width: 1300px) {
+  .Main {
+    position: absolute;
+    left: 15%;
+    top: 16%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .Main {
+    position: absolute;
+    left: 11%;
+    top: 18%;
+    border-radius: 5px;
+  }
+  .Box {
+    height: 250px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+  }
+  .HalfBoxs {
+    width: 34rem;
+    height: 380px;
+    border-radius: 5px;
+    background: #f3f6f9;
+  }
+  .RightBox {
+    width: 200px;
+    height: 380px;
+    background: #fff;
+  }
 }

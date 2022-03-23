@@ -126,6 +126,10 @@
   .HeadingContainer {
     text-align: center;
   }
+  .ImageContainer > img {
+    width: 100%;
+    margin-left: 20rem;
+  }
   .Headingmain {
     margin-left: 11rem;
     width: 100%;
@@ -139,12 +143,14 @@
   }
   .BtnOne {
     width: 100%;
-    margin-left: 10em;
+    margin-left: 5em;
+    font-size: 2rem;
   }
   .BesideBtn {
     width: 100%;
     border: none;
-    margin-left: 11em;
+    margin-left: 7em;
+    font-size: 1.4rem;
   }
   .Content {
     width: 100%;
