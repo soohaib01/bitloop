@@ -27,7 +27,15 @@ const mobileNav = () => {
      transform:renderingSize ? 'translateX(-100%)' : 'translateX(0%)'
     }} id='holder'>
     <div className={NavStyle.Menu}>
-
+     <div className={NavStyle.CutBtn}>
+     <button className={NavStyle.toggleBTn} onClick={handleClick}>
+      <FontAwesomeIcon
+        icon={faXmark}
+        style={{ fontSize: 35, color: "black",zIndex:'10000',}}
+        className={NavStyle.CutBtn}
+      />
+</button> 
+     </div>
      <ul>
        <li><Link href="/">Home</Link></li>
        <li><Link href="/reactBakend">React Backend</Link></li>
@@ -54,7 +62,7 @@ const mobileNav = () => {
       <button className={NavStyle.toggleBTn} onClick={handleClick}>
       <FontAwesomeIcon
         icon={renderingSize ? faBars : faXmark}
-        style={{ fontSize: 35, color: "black" }}
+        style={{ fontSize: 35, color: "black",zIndex:'10000',}}
       />
 </button>    
     </div>

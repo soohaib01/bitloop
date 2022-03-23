@@ -59,4 +59,7 @@
   .RightContainer {
     display: none;
   }
+  .Container {
+    display: none;
+  }
 }
