@@ -59,7 +59,7 @@
     margin-left: 21px;
   }
   .Content {
-    margin-top: 2rem;
+    margin-top: 1rem !important;
   }
   .SecondHeading {
     font-size: 2rem;

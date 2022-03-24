@@ -102,6 +102,7 @@
   }
   .HeadingContainer {
     width: auto;
+    text-align: center;
   }
   .Headingmain {
     font-family: "Mulish", sans-serif;
@@ -112,12 +113,12 @@
     text-align: center;
   }
   .BtnOne {
-    margin-left: 1.2rem !important;
+    margin-left: 0rem !important;
   }
 
   .BesideBtn {
     margin-top: 20px;
-    margin-left: 1.2rem !important;
+    margin-left: 0rem !important;
   }
   .ImageContainer > img {
     width: 300px !important;

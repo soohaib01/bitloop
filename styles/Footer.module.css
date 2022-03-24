@@ -47,10 +47,11 @@
 .footermains {
   padding-bottom: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footermains {
     max-width: 360px;
   }
+
   .footerboxwrap {
     padding: 0;
     flex-direction: column;
@@ -79,9 +80,18 @@
     border-top: 1px solid #ddd;
     padding-top: 20px;
     max-width: 360px;
-    margin: 0 auto;
     width: 90%;
     margin: 0;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 20px;
+  }
+  .footermains {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .footerbox {
+    margin-top: 20px;
   }
   .socilicos ul {
     flex-direction: column;
