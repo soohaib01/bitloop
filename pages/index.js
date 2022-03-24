@@ -24,11 +24,11 @@ export default function Home() {
       <Serviceversion />
       {/* Why Bitloops Using Section  */}
       <InfoSection />
-      {/* <Community /> */}
+      <Community />
       {/* slack banner component  */}
       {/* <Slack /> */}
       {/* Accordian Component */}
-      {/* <Accordion /> */}
+      <Accordion />
       {/* Sign Up Action box Before Footer  */}
       {/* <Actionbox /> */}
     </div>

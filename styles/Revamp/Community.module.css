@@ -2,9 +2,10 @@
 
 .HeadingAc {
   font-family: "Poppins", sans-serif;
-  color: gray;
+  color: black;
   text-align: center;
   margin-top: 6rem;
+  font-size: 2.3rem;
 }
 .Icon:hover {
   cursor: pointer;
@@ -22,6 +23,7 @@
   margin-left: 20px;
 }
 .Boxes {
+  margin-top: 5em !important;
   display: flex;
   justify-content: center;
   /* margin-top: 1rem; */
@@ -70,6 +72,5 @@
 }
 @media screen and (max-width: 992px) {
   .Boxes {
-    display: none;
   }
 }
