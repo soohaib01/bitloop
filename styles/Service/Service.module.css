@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
+.preheader {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: none;
+  margin-top: 5em;
+  color: gray;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.preheaderHeading {
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.6em;
+  margin-top: 1.25em;
+}
+.ImageRight {
+  width: 500px;
+  height: 500px;
+}
+
+.ServiceSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ServiceSection1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LeftHeading {
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 1.25em;
+  font-weight: 700;
+}
+.LeftSection > p {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.25em;
+}
+.RightSection > p {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.25em;
+}
+@media screen and (max-width: 1024px) {
+  .ServiceSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

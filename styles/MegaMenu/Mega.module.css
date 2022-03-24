@@ -99,20 +99,22 @@
     border-radius: 5px;
   }
   .Box {
-    height: 250px;
+    height: 500px;
     background: #fff;
     border-radius: 5px;
     display: flex;
   }
   .HalfBoxs {
     width: 34rem;
-    height: 380px;
+    height: 376px;
     border-radius: 5px;
+    /* background-color: red; */
     background: #f3f6f9;
   }
   .RightBox {
     width: 200px;
-    height: 386px;
+    height: 400px;
+    /* background-color: red; */
     background: #fff;
   }
 }

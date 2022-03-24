@@ -8,6 +8,7 @@ import Community from "../components/Home/Community";
 import Slack from "../components/Home/slackBanner";
 import Accordion from "../components/accordion";
 import Actionbox from "../components/newsletter";
+import Serviceversion from "../components/Home/ServiceVersionOne";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -19,16 +20,17 @@ export default function Home() {
       {/* Main Section Component  */}
       <MainSection />
       {/* Services Section Component  */}
-      <Service />
+      {/* <Service /> */}
+      <Serviceversion />
       {/* Why Bitloops Using Section  */}
       <InfoSection />
-      <Community />
+      {/* <Community /> */}
       {/* slack banner component  */}
       {/* <Slack /> */}
       {/* Accordian Component */}
-      <Accordion />
+      {/* <Accordion /> */}
       {/* Sign Up Action box Before Footer  */}
-      <Actionbox />
+      {/* <Actionbox /> */}
     </div>
   );
 }

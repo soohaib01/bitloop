@@ -47,12 +47,11 @@
   }
   .DesingAccordion {
     margin: 40px;
-
     width: 100%;
   }
   .Title {
     text-align: center;
-    margin-top: -3rem;
+    margin-top: 3rem;
     margin-left: 10px;
     font-size: 1.9rem;
     text-transform: capitalize;

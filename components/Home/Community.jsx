@@ -23,6 +23,21 @@ const Community = () => {
        <h3>Twitter.com/bitloop</h3>
        </div>
       </div>
+
+      <div className={Styles.MobileCommunity}>
+      <div className={Styles.IconImages}>
+      <img src="/twitter.png" alt="" className={Styles.MobileIcon}/>
+      <h3>Twitter.com/bitloop</h3>
+      </div>
+      <div className={Styles.IconImages}>
+      <img src="/twitter.png" alt="" className={Styles.MobileIcon}/>
+      <h3>Twitter.com/bitloop</h3>
+      </div>
+      <div className={Styles.IconImages}>
+      <img src="/twitter.png" alt="" className={Styles.MobileIcon}/>
+      <h3>Twitter.com/bitloop</h3>
+      </div>
+      </div>
     </div>
   )
 }
