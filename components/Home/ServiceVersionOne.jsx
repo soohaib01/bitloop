@@ -113,6 +113,66 @@ deployment, security and push notifications</p>
     marginTop:'20px'
 }} />
         </div>
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/one.jpg" alt="" style={{
+    height:'300px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/one.jpg" alt="" style={{
+    height:'300px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/one.jpg" alt="" style={{
+    height:'300px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/one.jpg" alt="" style={{
+    height:'300px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
         </div>
      </div>
     </>

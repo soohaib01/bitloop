@@ -94,7 +94,7 @@
     margin-top: 20px;
   }
   .socilicos ul {
-    flex-direction: column;
+    justify-content: center;
   }
 }
 .socilicos ul {
