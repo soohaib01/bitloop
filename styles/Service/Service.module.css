@@ -47,11 +47,55 @@
   font-family: "Mulish", sans-serif;
   font-size: 1.25em;
 }
+.MobileContainer {
+  display: none;
+}
 @media screen and (max-width: 1024px) {
-  .ServiceSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .MobileContainer {
+    display: block !important;
   }
+  .ServiceSection {
+    display: none;
+  }
+  .ServiceSection1 {
+    display: none;
+  }
+  .preheaderHeading {
+    font-size: 1.5rem;
+  }
+}
+/* Starting The Mobile View  */
+.MobileContainer {
+  margin-top: 2rem;
+}
+.MobileContainer > h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+.MobileContainer > p {
+  margin-top: 2rem;
+  text-align: center;
+}
+.MobileContainer > h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.ContentMobile {
+  margin-top: 3rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ContentMobile > h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.ContentMobile > p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  text-align: center;
 }

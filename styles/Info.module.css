@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins:wght@300&display=swap");
 
 .TopHeading {
-  margin-top: 4.5rem;
+  margin-top: 3rem;
   text-align: center;
 }
 .SecondHeading {
@@ -10,6 +10,7 @@
   letter-spacing: 1px;
 }
 .Content {
+  margin-top: 5em !important;
   width: 20rem;
   background: #fff;
   border-radius: 5px;

@@ -64,7 +64,9 @@ amet <br></br> consectetur adipisicing</h1>
 
  </div>
 </div>
-<div className={Styles.ServiceSection}>
+<div className={Styles.ServiceSection} style={{
+  marginTop:'-6em',
+}}>
  <div className={Styles.LeftSection}>
  <h2 className={Styles.LeftHeading}>Backend As A Service</h2>
  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnamv<br></br> veniam in vero itaque soluta fuga. Deleniti sint animi provident modi.</p>
@@ -91,6 +93,27 @@ amet <br></br> consectetur adipisicing</h1>
 
  </div>
 </div>
+
+
+ {/* Starting Mobile Services Section From Here  */}
+ <div className={Styles.MobileContainer}>
+ 
+        <div className={Styles.ContentMobile}>
+        <h1 style={{
+            marginTop:'20px'
+        }}>
+            Backend As A Service
+        </h1>
+        <p>All in one platform for your web or mobile development
+requirements including data and DB management, API integration
+deployment, security and push notifications</p>
+<img src="/one.jpg" alt="" style={{
+    height:'300px',
+    width:'100%',
+    marginTop:'20px'
+}} />
+        </div>
+        </div>
      </div>
     </>
    
