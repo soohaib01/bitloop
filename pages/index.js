@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import MainSection from "../components/Home/mainsection";
-import Service from "../components/Home/ServicesRevamp";
 import InfoSection from "../components/Home/info";
 import Community from "../components/Home/Community";
 import Slack from "../components/Home/slackBanner";
@@ -30,7 +29,7 @@ export default function Home() {
       {/* Accordian Component */}
       <Accordion />
       {/* Sign Up Action box Before Footer  */}
-      {/* <Actionbox /> */}
+      <Actionbox />
     </div>
   );
 }

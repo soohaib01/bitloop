@@ -12,15 +12,15 @@ const Community = () => {
        <h3>Twitter.com/bitloop</h3>
        </div>
        <div className={Styles.NestedBox}>
-       <img src="/discord.jpg" alt="" className={Styles.Icon} style={{
+       <img src="/github.jpg" alt="" className={Styles.Icon} style={{
        
        marginTop:'2px !important', 
        }}/>
-       <h3>Twitter.com/bitloop</h3>
+       <h3>Github.com/bitloop</h3>
        </div>
        <div className={Styles.NestedBox}>
-       <img src="/github.jpg" alt="" className={Styles.Icon} />
-       <h3>Twitter.com/bitloop</h3>
+       <img src="/slack.png" alt="" className={Styles.Icon} />
+       <h3>slack.com/bitloop</h3>
        </div>
       </div>
 

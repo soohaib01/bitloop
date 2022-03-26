@@ -46,14 +46,14 @@ amet <br></br> consectetur adipisicing</h1>
  <a href="#" className={Styles.Linking}>Explore</a>
  </div>
  <div className={Styles.RightSection}>
-   <img src="/one.jpg" alt="Place holder Image" className={Styles.ImageRight} />
+   <img src="/srone.jpg" alt="Place holder Image" className={Styles.ImageRight} />
  </div>
 </div>
 <div className={Styles.ServiceSection1} style={{
   marginTop:'-6em',
 }}>
  <div className={Styles.LeftSection}>
- <img src="/two.jpg" alt="Place holder Image" className={Styles.ImageRight} />
+ <img src="/srtwo.jpg" alt="Place holder Image" className={Styles.ImageRight} />
  </div>
  <div className={Styles.RightSection}>
  <h2 className={Styles.LeftHeading}>Backend As A Service</h2>
@@ -75,7 +75,7 @@ amet <br></br> consectetur adipisicing</h1>
  }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnamv<br></br> veniam in vero itaque soluta fuga. Deleniti sint animi provident modi.</p>
  </div>
  <div className={Styles.RightSection}>
-   <img src="/one.jpg" alt="Place holder Image" className={Styles.ImageRight} />
+   <img src="/srthree.jpg" alt="Place holder Image" className={Styles.ImageRight} />
  </div>
 </div>
 <div className={Styles.ServiceSection1} style={{

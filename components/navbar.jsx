@@ -45,7 +45,7 @@ const navbar = () => {
       <div className={Nav.RightContainer}>
       <ul className={Nav.Listing}>
   
-          <li><Link href="https://github.com/bitloops/bitloops">Source Github</Link></li>
+          <li><Link href="https://github.com/bitloops/bitloops">Star us on Github</Link></li>
           
           <li><Link href="/">Sign In</Link></li>
         

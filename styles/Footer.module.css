@@ -108,3 +108,12 @@
   cursor: pointer;
   opacity: 0.8;
 }
+
+.OpenSource {
+  padding: 8px 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+.OpenSource > h3 {
+  font-weight: 300 !important;
+}

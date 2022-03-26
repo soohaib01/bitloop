@@ -14,7 +14,11 @@ const footer = () => {
 	<li><img src="/fbico.png" /></li>
 	<li><img src="twitterico.png" /></li>
 	<li><img src="/instaico.png" /></li>
+
 </ul>
+<div>
+  <p className={FooterStyle.OpenSource}>Free To Use - Open Source</p>
+  </div>
 </div>
 	</div>
   
