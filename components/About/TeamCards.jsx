@@ -89,7 +89,7 @@ const TeamCards = () => {
                 
             </div>
             <div className={Styles.Card}>
-                <img src="/Teams/danias.jpg" alt="Danias" className={Styles.MemberImage} />
+                <img src="/Teams/Danias.jpg" alt="Danias" className={Styles.MemberImage} />
                 <h2>Vasilis Danias</h2>
                 <div className={Styles.ForBorder}></div>
                 <div style={{
