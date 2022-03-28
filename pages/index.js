@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Bitloop</title>
         <meta name="description" content="Generated 3Techno Digital" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/bitloopsfavico.png" />
       </Head>
       {/* Main Section Component  */}
       <MainSection />

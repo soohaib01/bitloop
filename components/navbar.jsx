@@ -6,6 +6,7 @@ import Mega from '../components/Home/megamenu'
 import {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import Head from 'next/head'
 const navbar = () => {
   
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -14,7 +15,13 @@ const navbar = () => {
     setShowMenu(!showMenu);
   }
   return (
+   
     <div className={Nav.Container}>
+      <Head>
+    <title>Bitloop</title>
+    <meta name="description" content="Generated 3Techno Digital" />
+    <link rel="icon" href="/bitloopsfavioc.png" />
+  </Head>
       <div className={Nav.mainContainer}>
     
           <img src='https://global-uploads.webflow.com/6183aca39d7d1eea0ba31f1f/6184bd8f4ed3b9dc15f317de_bitloops-logo_320x80.png'

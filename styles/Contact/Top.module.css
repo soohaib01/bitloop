@@ -1,0 +1,74 @@
+.HeadingMainTop {
+  text-align: center;
+}
+.HeadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  color: #1b1b1b;
+}
+.NestedContainer {
+  width: 70%;
+}
+.NestedContainer > p {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+}
+
+.Container {
+  display: flex;
+  max-width: 1280px;
+  margin: 80px auto 0;
+}
+
+.Card {
+  width: 19%;
+  margin: 0 1%;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+.Card:hover {
+  box-shadow: 2px 5px 5px 2px #eee;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.Icon {
+  display: flex;
+}
+
+.Icon > h2 {
+  padding-left: 20px;
+}
+.Card:hover > .Icon > svg {
+  color: #a455ee;
+}
+.Icon > h2 {
+  padding: 10px 0 10px 10px;
+}
+
+.Icon > svg {
+  margin-top: 15px;
+  font-size: 25px;
+}
+.ContentContainer > p:nth-child(2) {
+  margin-top: 25px;
+}
+@media screen and (max-width: 1080px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    max-width: 98%;
+    margin: 80px auto 0;
+  }
+
+  .Card {
+    width: 100%;
+    margin: 3% 0%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+  }
+}
