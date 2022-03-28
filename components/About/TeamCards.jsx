@@ -9,7 +9,7 @@ const TeamCards = () => {
             </div>
             <div className={Styles.CardContainer}>
             <div className={Styles.Card}>
-                <img src="/Teams/danias.jpg" alt="Danias" className={Styles.MemberImage} />
+                <img src="/Teams/Danias.jpg" alt="Danias" className={Styles.MemberImage} />
                 <h2>Vasilis Danias</h2>
                 <div className={Styles.ForBorder}></div>
                 <div style={{
@@ -22,7 +22,7 @@ const TeamCards = () => {
                 
             </div>
             <div className={Styles.Card}>
-                <img src="/Teams/danias.jpg" alt="Danias" className={Styles.MemberImage} />
+                <img src="/Teams/Danias.jpg" alt="Danias" className={Styles.MemberImage} />
                 <h2>Vasilis Danias</h2>
                 <div className={Styles.ForBorder}></div>
                 <div style={{
@@ -35,7 +35,7 @@ const TeamCards = () => {
                 
             </div>
             <div className={Styles.Card}>
-                <img src="/Teams/danias.jpg" alt="Danias" className={Styles.MemberImage} />
+                <img src="/Teams/Danias.jpg" alt="Danias" className={Styles.MemberImage} />
                 <h2>Vasilis Danias</h2>
                 <div className={Styles.ForBorder}></div>
                 <div style={{
@@ -48,7 +48,7 @@ const TeamCards = () => {
                 
             </div>
             <div className={Styles.Card}>
-                <img src="/Teams/danias.jpg" alt="Danias" className={Styles.MemberImage} />
+                <img src="/Teams/Danias.jpg" alt="Danias" className={Styles.MemberImage} />
                 <h2>Vasilis Danias</h2>
                 <div className={Styles.ForBorder}></div>
                 <div style={{
@@ -63,7 +63,20 @@ const TeamCards = () => {
             </div>
             <div className={Styles.CardContainer}>
             <div className={Styles.Card}>
-                <img src="/Teams/danias.jpg" alt="Danias" className={Styles.MemberImage} />
+                <img src="/Teams/Danias.jpg" alt="Danias" className={Styles.MemberImage} />
+                <h2>Vasilis Danias</h2>
+                <div className={Styles.ForBorder}></div>
+                <div style={{
+                    display:'flex',
+                    justifyContent:'space-between'
+                }}>
+                <p className={Styles.Designation}>Co-Founder & CEO</p>
+                 <img src="/Teams/link.png" alt="Linkdin Image" className={Styles.Icon} />
+                </div>
+                
+            </div>
+            <div className={Styles.Card}>
+                <img src="/Teams/Danias.jpg" alt="Danias" className={Styles.MemberImage} />
                 <h2>Vasilis Danias</h2>
                 <div className={Styles.ForBorder}></div>
                 <div style={{
@@ -89,20 +102,7 @@ const TeamCards = () => {
                 
             </div>
             <div className={Styles.Card}>
-                <img src="/Teams/danias.jpg" alt="Danias" className={Styles.MemberImage} />
-                <h2>Vasilis Danias</h2>
-                <div className={Styles.ForBorder}></div>
-                <div style={{
-                    display:'flex',
-                    justifyContent:'space-between'
-                }}>
-                <p className={Styles.Designation}>Co-Founder & CEO</p>
-                 <img src="/Teams/link.png" alt="Linkdin Image" className={Styles.Icon} />
-                </div>
-                
-            </div>
-            <div className={Styles.Card}>
-                <img src="/Teams/danias.jpg" alt="Danias" className={Styles.MemberImage} />
+                <img src="/Teams/Danias.jpg" alt="Danias" className={Styles.MemberImage} />
                 <h2>Vasilis Danias</h2>
                 <div className={Styles.ForBorder}></div>
                 <div style={{
