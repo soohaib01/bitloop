@@ -1,0 +1,55 @@
+.TopHeading {
+  text-align: center;
+  margin-top: 3rem;
+}
+.Image {
+  width: 80px;
+  height: 80px;
+  margin-top: 2rem;
+}
+.CardContainer {
+  display: flex;
+  max-width: 1280px;
+  margin: 80px auto 0;
+}
+.Card {
+  width: 25%;
+  margin: 0 0%;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+.IconBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Card > h2 {
+  text-align: center;
+}
+.Card:hover {
+  box-shadow: 5px 5px 5px 5px #eee;
+  border: none;
+  transition: 0.5s ease-in;
+  overflow: hidden;
+  cursor: pointer;
+}
+.IconBox > p {
+  margin-top: 2rem;
+  text-align: center;
+}
+@media screen and (max-width: 1080px) {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 98%;
+    margin: 80px auto 0;
+  }
+
+  .Card {
+    width: 100%;
+    margin: 3% 0%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+  }
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
+.HeadingContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+
+  margin: 80px auto 0;
+}
+.HeadingContainer > h2 {
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800 !important;
+}
+.HeadingContainer > p {
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.Image {
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px 5px #eee;
+}
+.CardsContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 1280px;
+  margin: 80px auto 0;
+}
+.Card {
+  display: flex;
+}
+.Card:hover > img {
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s ease-in;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+.Content {
+  width: 100%;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 1080px) {
+  /*   Code For mobile Components Will Be Goes Here          */
+  .CardsContainer {
+    display: none;
+  }
+  .MobileContainer {
+    display: block !important;
+  }
+  .HeadingContainer {
+    margin: 20px;
+    margin-top: 4rem;
+    text-align: center;
+  }
+}
+
+.ActualImageForMobile {
+  width: 100px;
+  height: 100px;
+}
+.BorderLine {
+  border: 0.1px solid #eee;
+  margin-top: 2rem;
+}
+.ImageMobile {
+  margin: 20px;
+}
+.ImageMobile > h2 {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.ImageMobile > p {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.MobileContainer {
+  display: none;
+  margin-top: 4rem;
+}
