@@ -2,6 +2,7 @@ import StorySection from "../components/About/Story";
 import Head from "next/head";
 import CreatorSection from "../components/About/Creators";
 import Features from "../components/About/Features";
+import TeamCards from "../components/About/TeamCards";
 const about = () => {
   return (
     <div>
@@ -15,6 +16,8 @@ const about = () => {
       <CreatorSection />
       {/* Feature Section Code  */}
       <Features />
+      {/* Team Cards And Info Component */}
+      <TeamCards />
     </div>
   );
 };

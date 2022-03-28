@@ -9,13 +9,17 @@
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
 }
+
 .BoxContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+}
+.HeadingOne {
+  /*  */
 }
 .Icon:hover {
   box-shadow: 5px 5px 5px 5px #eee;
@@ -39,4 +43,20 @@
 .ActualBoxes > h2 {
   font-size: 2rem;
   margin-top: 2rem;
+}
+@media screen and (max-width: 1080px) {
+  .MainContainer {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .BoxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .ActualBoxes {
+    padding: 30px 0;
+  }
 }

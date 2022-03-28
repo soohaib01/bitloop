@@ -26,7 +26,7 @@
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
-  margin-top: 4em;
+  margin-top: 1em;
 }
 .ContentBreaker {
   font-family: "Poppins", sans-serif;
@@ -47,9 +47,8 @@
     justify-content: center;
     align-items: center;
     background: #fff;
-    /* flex: 1 1; */
-    margin-top: 2rem;
     flex-direction: column;
+    margin: 40px 0;
   }
   .Content > p {
     font-family: "Poppins", sans-serif;

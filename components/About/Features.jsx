@@ -3,8 +3,7 @@ import Styles from '../../styles/Revamp/Features.module.css'
 const Features = () => {
   return (
     <div>
-        <div className={Styles.MainContainer}>  
-        <span className={Styles.FirstHeading}>Passionate , Developers</span>
+        <div className={Styles.MainContainer}> 
         <h1 className={Styles.HeadingOne}>What Makes Us Different</h1>
         <div className={Styles.BoxContainer}>
         <div className={Styles.ActualBoxes}>
