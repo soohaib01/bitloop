@@ -1,0 +1,81 @@
+.Imaging {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 10px;
+  animation: wave-squares 2s infinite ease-out;
+  background: #eee !important;
+}
+.Imaging:hover {
+  transform: translateY(-10px);
+
+  transition: 0.2s ease-in;
+}
+.Container {
+  display: flex;
+  max-width: 1280px;
+  margin: 80px auto 0;
+  justify-content: space-between;
+}
+
+.InnerContainer {
+  display: flex;
+  flex-direction: column;
+  /* margin: 20px; */
+  padding: 20px;
+  cursor: pointer;
+  max-width: 33.33%;
+}
+
+.InnerContainer > p {
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 2rem;
+}
+.InnerContainer > h2 {
+  color: black;
+  margin-top: 2rem;
+  font-size: 21px;
+}
+#ImageLast {
+  padding-right: 0px;
+}
+#PaddingLeftZero {
+  padding-left: 0 !important ;
+}
+
+@keyframes wave-squares {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+/* Reponsive Css Code Starts from here */
+@media screen and (max-width: 1080px) {
+  .Container {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .InnerContainer {
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px; */
+    padding: 20px;
+    cursor: pointer;
+    max-width: 100%;
+  }
+  #ImageLast {
+    padding-right: 20px !important;
+  }
+  #PaddingLeftZero {
+    padding-left: 20px !important;
+  }
+}

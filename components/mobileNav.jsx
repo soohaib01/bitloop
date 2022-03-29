@@ -25,7 +25,7 @@ const mobileNav = () => {
   
     <div className={NavStyle.Holder} style={{
      transform:renderingSize ? 'translateX(-100%)' : 'translateX(0%)'
-    }} id='holder'>
+    }}>
     <div className={NavStyle.Menu}>
      <div className={NavStyle.CutBtn}>
      <button className={NavStyle.toggleBTn} onClick={handleClick}>
@@ -37,13 +37,13 @@ const mobileNav = () => {
 </button> 
      </div>
      <ul>
-       <li><Link href="/">Home</Link></li>
-       <li><Link href="/reactBakend">React Backend</Link></li>
-       <li><Link href="/LandingOne">Landing One</Link></li>
-       <li><Link href="/about">About</Link></li>
-       <li><Link href="/about">Link Another</Link></li>
-       <li><Link href="/about">Link Three</Link></li>
-       <li><Link href="/about">Link Four</Link></li>
+       <li onClick={handleClick}><Link href="/">Home</Link></li>
+       <li onClick={handleClick}><Link href="/reactBakend">React Backend</Link></li>
+       <li onClick={handleClick}><Link href="/LandingOne">Landing One</Link></li>
+       <li onClick={handleClick}><Link href="/about">About</Link></li>
+       <li onClick={handleClick}><Link href="/about">Link Another</Link></li>
+       <li onClick={handleClick}><Link href="/about">Link Three</Link></li>
+       <li onClick={handleClick}><Link href="/about">Link Four</Link></li>
    
       
   
@@ -53,10 +53,9 @@ const mobileNav = () => {
 
     </div>
     <div className={NavStyle.makeBoxFlex}>
-      <Link href="/">
-      <img src="/logo.png" alt="Logo Place" className={NavStyle.Logo} style={{
-       
-      }} />
+      {/* eslint-disable-next-line @next/next/link-passhref */}
+      <Link href="">
+      <img src="/logo.png" alt="Logo Place" className={NavStyle.Logo}/>
       </Link>
       
       <button className={NavStyle.toggleBTn} onClick={handleClick}>

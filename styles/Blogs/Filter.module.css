@@ -1,0 +1,45 @@
+.Container {
+  display: flex;
+  max-width: 1280px;
+  margin: 80px auto 0;
+}
+.Table {
+  overflow: scroll !important;
+  max-width: 1280px;
+  width: 100%;
+  border-spacing: 10px;
+  display: block;
+  overflow-y: hidden !important;
+}
+.BtnFilter {
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #fff;
+}
+.BtnFilter:hover {
+  cursor: pointer;
+  transition: 0.4s ease;
+  color: black;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1080px) {
+  .Table {
+    overflow: scroll !important;
+    width: 92%;
+    margin: 0 auto;
+    border-spacing: 10px;
+    display: block;
+    overflow-y: hidden !important;
+  }
+  .Container {
+    display: block;
+    max-width: 1280px;
+    margin: 80px auto 0;
+  }
+}

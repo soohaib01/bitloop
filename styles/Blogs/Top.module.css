@@ -1,0 +1,78 @@
+.InnerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 80px auto 0;
+}
+.Image {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #eee;
+  border-radius: 5px;
+  width: 550px;
+  height: 350px;
+}
+.ContentSide {
+  display: flex;
+  flex-direction: column;
+  /* margin: 20px; */
+}
+.ContentSide > h2 {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ContentSide:hover > h2 {
+  transition: 0.3s ease-in;
+  color: #a455ee;
+  cursor: pointer;
+  font-weight: bold;
+}
+.ContentSide > p {
+  cursor: pointer;
+  color: gray;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+.AutorName {
+  cursor: pointer;
+  margin-top: 25px;
+  font-size: 15.2px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1080px) {
+  .InnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Container {
+    display: flex;
+    flex-direction: column;
+    max-width: 98%;
+    margin: 40px 0 auto;
+  }
+  .Image {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #eee;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+  }
+  .ContentSide {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .ContentSide > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
