@@ -7,10 +7,8 @@ const topSection = () => {
         <div className={Styles.Container}>
 
             <h1>Frequently asked questions</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
-
-</p>
- 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+            
         {/* <div className={Styles.HeadingContainer}></div> */}
         </div>
     </div>
