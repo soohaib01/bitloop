@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+.Container {
+  display: flex;
+  max-width: 1280px;
+  margin: 80px auto 0;
+  justify-content: space-between;
+}
+
+.InnerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HeroImage {
+  border-radius: 10px;
+  width: 700px;
+}
+.LeftContainer {
+  padding-left: 2rem;
+}
+.RightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Heading {
+  color: #40404c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+.BtnTopRounded {
+  background: #32c671;
+  width: 50%;
+  border-radius: 20px;
+  padding: 2px;
+}
+.BtnTopRounded > p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.BtnOne {
+  background: #8113e7;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 700;
+  padding: 14px 30px;
+  cursor: pointer;
+}
+
+.BtnTwo {
+  background: none;
+  outline: #8113e7;
+  border: 1px solid #8113e7;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  color: #8113e7;
+  font-weight: 700;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.BtnOne:hover {
+  background: #924bd4;
+  transition: 0.4s ease;
+}
+.BtnTwo:hover {
+  border: 1px solid #924bd4;
+  transition: 0.4s ease;
+}
+.BtnGroup {
+  margin-top: 1rem;
+  display: flex;
+  gap: 14px;
+}
+@media screen and (max-width: 1080px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .InnerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .HeroImage {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .BtnTopRounded {
+    width: 100%;
+    max-width: 300px;
+  }
+  .RightContainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .Heading {
+    text-align: center;
+  }
+  .Content {
+    text-align: center;
+  }
+}

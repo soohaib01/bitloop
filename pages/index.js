@@ -12,20 +12,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Bitloop</title>
+        <title>Bitloops</title>
         <meta name="description" content="Generated 3Techno Digital" />
         <link rel="icon" href="/bitloopsfavico.png" />
       </Head>
+
       {/* Main Section Component  */}
       <MainSection />
-      {/* Services Section Component  */}
-      {/* <Service /> */}
+
       <Serviceversion />
       {/* Why Bitloops Using Section  */}
       <InfoSection />
       <Community />
-      {/* slack banner component  */}
-      {/* <Slack /> */}
+
       {/* Accordian Component */}
       <Accordion />
       {/* Sign Up Action box Before Footer  */}

@@ -1,7 +1,13 @@
-import React from "react";
+import TopSection from "../components/LandingOne/topSection";
+import SecondSection from "../components/LandingOne/secondSection";
 
 const LandingOne = () => {
-  return <div>LandingOne</div>;
+  return (
+    <div>
+      <TopSection />
+      <SecondSection />
+    </div>
+  );
 };
 
 export default LandingOne;

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+.Container {
+  display: flex;
+  margin: 80px auto 0;
+  max-width: 1280px;
+  margin-top: 5rem;
+}
+.RightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.EmailBox {
+  padding: 13px 20px;
+  width: 45%;
+  outline: 1px solid #ccc;
+  border-radius: 5px;
+  border: none;
+  z-index: 1000;
+}
+
+.RightContainer {
+  max-width: 650px;
+}
+.EmailBox::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+.Heading > h1 {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.EmailBtn {
+  background-color: #8113e7;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  top: 2px;
+  font-size: 1.1rem;
+  border-radius: 0 10px 10px 0px;
+  border: none;
+  padding: 9px 20px;
+  font-weight: 500 !important;
+  width: 10rem;
+  position: relative;
+  right: 10px;
+}
+.InnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeroLeftImage {
+  width: 500px;
+}
+.Linking {
+  color: #8fcef9 !important;
+}
+.Linking:hover {
+  text-decoration: underline;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* Responsive Code Starts From Here */
+
+@media screen and (max-width: 1080px) {
+  .Container {
+    display: flex;
+    margin: auto 0;
+    max-width: 100%;
+    margin-top: 5rem;
+  }
+  .InnerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .HeroLeftImage {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .RightContainer {
+    margin: 20px;
+    text-align: center;
+  }
+}
