@@ -19,7 +19,7 @@ const secondSection = () => {
                    <div className={Styles.LearnMoreLink}>
                                                                
                <Link href="/">
-                   <span  className={Styles.Linking}>Learn More About Bitloops</span>
+                   <span className={Styles.Linking}>Learn More About Bitloops</span>
                </Link>
                    </div>
                 </div>

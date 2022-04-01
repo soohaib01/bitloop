@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+.Container{
+    display: flex;
+     max-width: 1280px;
+     margin: 80px auto 0;
+     
+}
+.CodeContainerOne{
+    width: 600px;
+    cursor: pointer;
+    height: 80px;
+    background: #2D2D2D;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.ActualCode{
+    color: white;
+    padding: 20px;
+  
+}
+.CodeContainerTwo{
+    cursor: pointer;
+    margin-top: 40px;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    background: #2D2D2D;
+}
+.RightContainer{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    gap: 2rem;
+}
+.InnerContainer{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 4rem; 
+}
+
+.LeftContainer{
+   margin-left: 10rem;
+}
+.ListWithNumbers > ul > li{
+    list-style: none;
+    margin-top: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #40404c;
+
+}
+.RightContainer > h1{
+    font-family: "Poppins", sans-serif;
+   font-weight: 420;
+}
+
+
+.ListWithNumbers > ul > li > span{
+    background: #7b2bc7;
+    color: white;
+    margin-right: 1.4rem;
+    border-radius: 20px;
+    padding: 3px 11px;
+}
+
+/* Responsive Code Starts from herer */
+@media screen and (max-width: 1080px) {
+    .Container{
+         display: flex;
+         max-width: 100%;
+         margin: 0 auto;
+         
+    }
+      .InnerContainer{
+          display: flex;
+          flex-direction: column;
+      }
+      .LeftContainer{
+          width: 95%;
+     margin: 0 auto;
+     }
+     .RightContainer{
+         margin: 40px;
+     }
+     .CodeContainerOne{
+        width:100%;
+     }
+     .CodeContainerTwo{
+     width:100%;
+    }
+    }

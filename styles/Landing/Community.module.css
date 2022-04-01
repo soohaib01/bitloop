@@ -1,0 +1,65 @@
+.Container{
+    display: flex;
+    max-width: 1280px;
+    margin: 80px auto 0;
+}
+
+.Image{
+    width: 150px;
+}
+
+.Community{
+    display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.MainCommunity{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 20rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.TopHeading > h1{
+    font-weight: 500;
+}
+
+.Community > h4{
+    font-weight: 500;
+    padding-top: 2rem;
+}
+.Image:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 1080px) {
+    .Container{
+       
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .MainCommunity{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+    .Community{
+        display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .TopHeading > h1{
+        font-weight: 500;
+        margin: 20px;
+        margin-top: 5rem;
+    }
+    
+}

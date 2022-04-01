@@ -1,0 +1,87 @@
+.Container {
+  max-width: 1280px;
+  display: flex;
+  margin: 80px auto 0;
+}
+.ServicesContainer {
+  display: flex;
+}
+.Heading > h2 {
+  color: #40404c;
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+.Heading > p {
+  color: #40404c;
+  margin-top: 1rem;
+}
+.ServicesContainer {
+  margin-top: 2.5rem;
+}
+.FirstLayer > ul > li {
+  list-style: none;
+}
+.Icon {
+  width: 40px;
+}
+.HeadingService > h3 {
+  font-weight: 600;
+  color: #7B2BC7;
+}
+
+.FirstLayer {
+  width: 32%;
+}
+.ContentP {
+  margin-top: 10px;
+  color: #40404c;
+  font-weight: 400;
+  line-height: 1.6rem;
+  font-size: 14px;
+}
+#MiddleLayer{
+  margin: 0 4%;
+}
+
+@media screen and (max-width: 1080px) {
+  .Container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .ServicesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+.FirstLayer {
+  width: 98%;
+  /* margin: 2%;  */
+}
+.FirstLayer > ul{
+  margin-top: 3rem;
+}
+#MiddleLayer{
+  margin: 0 0%;
+}
+
+.Heading > h2 {
+  color: #40404c;
+  font-weight: 500;
+  font-size: 1.7rem;
+  margin-top: 2.5rem;
+  margin: 2rem;
+  text-transform: capitalize;
+}
+.Heading > p {
+  color: #40404c;
+  margin-top: 1rem;
+  margin: 2rem;
+}
+}
