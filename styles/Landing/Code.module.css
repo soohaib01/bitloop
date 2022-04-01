@@ -26,6 +26,7 @@
     height: 300px;
     border-radius: 10px;
     background: #2D2D2D;
+    padding-top: 10px !important;
 }
 .RightContainer{
     display: flex;
