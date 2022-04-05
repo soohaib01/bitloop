@@ -17,7 +17,6 @@
 .ActualCode{
     color: white;
     padding: 20px;
-  
 }
 .CodeContainerTwo{
     cursor: pointer;
@@ -53,8 +52,11 @@
 
 }
 .RightContainer > h1{
+    color: #40404c;
+    font-size: 1.7em;
+    font-weight: 400;
     font-family: "Poppins", sans-serif;
-   font-weight: 420;
+    text-transform: capitalize;
 }
 
 

@@ -23,6 +23,7 @@ export default function Home() {
       <Serviceversion />
       {/* Why Bitloops Using Section  */}
       <InfoSection />
+      {/* Home Community Section */}
       <Community />
 
       {/* Accordian Component */}

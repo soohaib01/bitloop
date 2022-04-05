@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+
+.Container{
+    max-width: 1280px;
+    margin: 80px auto 0;
+}
+.InnerContainer{
+    margin-top: 7rem !important; 
+}
+
+.InnerContainer > h1{
+    color: #40404c;
+    font-size: 1.7em;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+.TableHead{
+    /* border-top: 1px solid #ccc; */
+    width: 100%;
+    margin-top: 3.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 5px 2px 3px 3px #eee;
+    padding: 20px;
+    text-align: left;
+}
+.TableHead > th{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #666;
+    padding: 20px;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.TableHead > tr > td{
+    padding: 20px;
+    text-align: left;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.FirstChildHead{
+    border-right: 1px solid #eee;
+    width: 35%;
+}
+
+/* Responsive Code Starts From Here */
+
+@media screen and (max-width: 1080px) {
+    .Container{
+        width: 100%;
+        margin: 0 auto;
+    }
+   .TableHead{
+       width: 100%;
+       overflow: scroll;
+       display: block;
+   }
+    .InnerContainer{
+        margin-top: 2rem !important;
+        margin: 20px;
+    }
+}

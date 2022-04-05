@@ -8,13 +8,14 @@
 }
 .Heading > h2 {
   color: #40404c;
-  font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 1.7em;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
 }
 .Heading > p {
   color: #40404c;
-  margin-top: 1rem;
+  margin-top: 18px;
 }
 .ServicesContainer {
   margin-top: 2.5rem;

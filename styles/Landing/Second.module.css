@@ -31,7 +31,8 @@
   font-family: "Poppins", sans-serif;
 }
 .Heading > h1 {
-  font-weight: 500;
+  font-size: 1.7em;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
 .EmailBtn {

@@ -29,11 +29,14 @@ const navbar = () => {
         />
         <ul className={Nav.Listing}>
           <li><Link href="/">Home</Link></li>
-          <li className={Nav.HoverShow} onClick={HandleClick}><Link href="#">Community</Link><FontAwesomeIcon
+          <li className={Nav.HoverShow} onClick={HandleClick}><Link href="#">Community</Link>
+          {/* <FontAwesomeIcon
         icon={faChevronDown}
         style={{ fontSize: 12,marginLeft:8,cursor:'pointer', color: "black" }}
-      /></li>
-          <div 
+      /> */}
+      
+      </li>
+          {/* <div 
           style={{
             display:showMenu ? 'block' : 'none',
             transition:'0.5s ease-in'
@@ -41,11 +44,11 @@ const navbar = () => {
           className={Nav.FinalShow}
           >
           <Mega/>
-          </div>
+          </div> */}
     
           <li><Link href="/about">About</Link></li>
           <li><Link href="/contact">Contact</Link></li>
-          <li><Link href="/help">Help</Link></li>
+          {/* <li><Link href="/help">Help</Link></li> */}
         </ul>
       </div>
    

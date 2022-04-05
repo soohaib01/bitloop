@@ -7,13 +7,16 @@
 .Image{
     width: 150px;
 }
-
+.Image:hover{
+    box-shadow: 2px 2px 2px 2px #eee;
+   transition: 0.5s ease;
+   border-radius: 5px;
+}
 .Community{
     display: flex;
-
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .MainCommunity{
     display: flex;
@@ -24,7 +27,12 @@ align-items: center;
     margin-left: 5rem;
 }
 .TopHeading > h1{
-    font-weight: 500;
+    color: #40404c;
+    font-size: 1.7em;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    margin-top: 3rem;
 }
 
 .Community > h4{
