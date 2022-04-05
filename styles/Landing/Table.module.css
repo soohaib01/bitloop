@@ -11,21 +11,29 @@
 
 .InnerContainer > h1{
     color: #40404c;
-    font-size: 1.7em;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    text-transform: capitalize;
+font-size: 1.7em;
+font-weight: 400;
+font-family: "Poppins" ,sans-serif;
+text-transform: capitalize;
+text-align: left;
+font-weight: 400;
 }
 .TableHead{
-    /* border-top: 1px solid #ccc; */
     width: 100%;
-    margin-top: 3.5rem;
-    cursor: pointer;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 5px 2px 3px 3px #eee;
-    padding: 20px;
-    text-align: left;
+margin-top: 0.5rem;
+cursor: pointer;
+border-radius: 5px;
+background: #fff;
+box-shadow: none;
+padding: 20px;
+text-align: left;
+border-spacing: 0;
+}
+.TableHead > th{
+    border: 1px solid #ddd;
+background: #f6f6f6;
+color: #000;
+font-size: 17px;
 }
 .TableHead > th{
     font-family: "Poppins", sans-serif;
@@ -37,9 +45,7 @@
 }
 .TableHead > tr > td{
     padding: 20px;
-    text-align: left;
-    border-top: 1px solid #eee;
-    border-right: 1px solid #eee;
+    border: 1px solid #efefef;
 }
 .FirstChildHead{
     border-right: 1px solid #eee;

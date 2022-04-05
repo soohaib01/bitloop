@@ -15,7 +15,7 @@ const whatWeOffer = () => {
           <li className={Styles.Transform}>Integration With</li>
               </ul>
                 <ul className={Styles.MainWord}>
-                    <li><del style={{color:'#7B2BC7',fontWeight:'bold'}}>Option One</del></li>
+                    <li><del style={{color:'#fff',fontWeight:'bold'}}>Option One</del></li>
                     <li>Connectors library</li>
                     <li>Option One</li>   
                 </ul>
@@ -26,7 +26,7 @@ const whatWeOffer = () => {
           <li className={Styles.Transform}>Integration  BitLoop</li>
               </ul>
                 <ul className={Styles.MainWord}>
-                    <li><del style={{color:'#7B2BC7' ,fontWeight:'bold'}}>Option One</del></li>
+                    <li><del style={{color:'#fff' ,fontWeight:'bold'}}>Option One</del></li>
                     <li>Option One</li>
                     <li>Option One</li>   
                 </ul>
@@ -37,7 +37,7 @@ const whatWeOffer = () => {
           <li className={Styles.Transform}>Integration Open</li>
               </ul>
                 <ul className={Styles.MainWord}>
-                    <li><del style={{color:'#7B2BC7' ,fontWeight:'bold'}}>Option One</del></li>
+                    <li><del style={{color:'#fff' ,fontWeight:'bold'}}>Option One</del></li>
                     <li>Option One</li>
                     <li>Option One</li>   
                 </ul>
@@ -48,7 +48,7 @@ const whatWeOffer = () => {
           <li className={Styles.Transform}>Integration Source</li>
               </ul>
                 <ul className={Styles.MainWord}>
-                    <li><del style={{color:'#7B2BC7',fontWeight:'bold'}}>Option One</del></li>
+                    <li><del style={{color:'#fff',fontWeight:'bold'}}>Option One</del></li>
                     <li>Option One</li>
                     <li>Option One</li>   
                 </ul>
@@ -61,7 +61,7 @@ const whatWeOffer = () => {
           <li className={Styles.Transform}>Integration With </li>
               </ul>
                 <ul className={Styles.MainWord}>
-                    <li><del style={{color:'#7B2BC7',fontWeight:'bold'}}>Option One</del></li>
+                    <li><del style={{color:'#fff',fontWeight:'bold'}}>Option One</del></li>
                     <li>Connectors library</li>
                     <li>Option One</li>   
                 </ul>
@@ -72,7 +72,7 @@ const whatWeOffer = () => {
           <li className={Styles.Transform}>Integration Bitloop</li>
               </ul>
                 <ul className={Styles.MainWord}>
-                    <li><del style={{color:'#7B2BC7',fontWeight:'bold'}}>Option One</del></li>
+                    <li><del style={{color:'#fff',fontWeight:'bold'}}>Option One</del></li>
                     <li>Option One</li>
                     <li>Option One</li>   
                 </ul>
@@ -83,7 +83,7 @@ const whatWeOffer = () => {
           <li className={Styles.Transform}>Integration Open</li>
               </ul>
                 <ul className={Styles.MainWord}>
-                    <li><del style={{color:'#7B2BC7',fontWeight:'bold'}}>Option One</del></li>
+                    <li><del style={{color:'#fff',fontWeight:'bold'}}>Option One</del></li>
                     <li>Option One</li>
                     <li>Option One</li>   
                 </ul>
@@ -94,7 +94,7 @@ const whatWeOffer = () => {
           <li className={Styles.Transform}>Integration Source</li>
               </ul>
                 <ul className={Styles.MainWord}>
-                    <li><del style={{color:'#7B2BC7',fontWeight:'bold'}}>Option One</del></li>
+                    <li><del style={{color:'#fff',fontWeight:'bold'}}>Option One</del></li>
                     <li>Option One</li>
                     <li>Option One</li>   
                 </ul>

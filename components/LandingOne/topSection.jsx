@@ -22,7 +22,7 @@ const topSection = () => {
           </div>
         </div>
         <div className={Styles.LeftContainer}>         
-          <img src="/NewHome/hero-light.png" alt="Bitloops Content Code" className={Styles.HeroImage} />
+          <img src="Bitloops.gif" alt="Bitloops Content Code" className={Styles.HeroImage} />
         </div>
       </div>
      </div>

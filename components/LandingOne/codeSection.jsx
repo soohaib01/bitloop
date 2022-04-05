@@ -8,12 +8,12 @@ const codeSection = () => {
                 <div className={Styles.RightContainer}>
                     <h1>Quick to Get Started, Easy to Grow
 </h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
 </p>
 
   <div className={Styles.ListWithNumbers}>
       <ul>
-         <li><span>2</span> Simplicity first attitude</li>
+         <li><span>1k</span> Simplicity first attitude</li>
          <li><span>2</span> Zero dependencies</li>
          <li><span>3</span> Verbose documentation</li>
          <li><span>4</span> Consistency across platforms</li>
@@ -24,7 +24,9 @@ const codeSection = () => {
   </div>
                 </div>
                 <div className={Styles.LeftContainer}>
+                <h3>Lorem ipsum is a dummy text</h3>
                     <div className={Styles.CodeContainerOne}>
+                        
                       <code className={Styles.ActualCode}>const<span style={{
                           color:'#FFB4C1',
                           fontWeight:'bold'
@@ -40,7 +42,9 @@ const codeSection = () => {
                     
                   
                     </div>
+                    <h3>Lorem ipsum is a dummy text</h3>
                     <div className={Styles.CodeContainerTwo}>
+                    
                     <code className={Styles.ActualCode}>const<span style={{
                           color:'#FFB4C1',
                           fontWeight:'bold'

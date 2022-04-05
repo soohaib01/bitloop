@@ -9,6 +9,8 @@
 .CodeContainerOne{
     width: 600px;
     cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 10px;
     height: 80px;
     background: #2D2D2D;
     border-radius: 10px;
@@ -20,7 +22,7 @@
 }
 .CodeContainerTwo{
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 10px;
     width: 600px;
     height: 300px;
     border-radius: 10px;
