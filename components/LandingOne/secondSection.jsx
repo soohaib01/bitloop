@@ -1,6 +1,9 @@
 import Styles from '../../styles/Landing/Second.module.css'
 import Link from 'next/link'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const secondSection = () => {
+    const notify = () => toast("Wow so easy!");
   return (
     <div>
         <div className={Styles.Container}>
@@ -14,17 +17,19 @@ const secondSection = () => {
                    </div>
                    <div className={Styles.NewsLeytter}>
                        <input type="text" placeholder='Enter Your Email to Subscribe' className={Styles.EmailBox} />
-                       <button className={Styles.EmailBtn}>Get Notified</button>
+                       <button className={Styles.EmailBtn} onClick={notify}>Get Notified</button>
+                       <ToastContainer />
                    </div>
                    <div className={Styles.LearnMoreLink}>
                                                                
+               {/* // eslint-disable-next-line @next/next/link-passhref */}
                <Link href="/">
                    <span className={Styles.Linking}>Learn More About Bitloops</span>
                </Link>
                    </div>
                 </div>
                 <div className={Styles.Leftcontainer}>
-                   <img src="/NewHome/intro-devices.png" alt='The Sign Up Image' className={Styles.HeroLeftImage}/>
+                   <img src="secondImageOne.png" alt='The Sign Up Image' className={Styles.HeroLeftImage}/>
                 </div>
             </div>
         </div>

@@ -18,6 +18,8 @@
     color: #2d2d2d; 
 }
 
+/* Responsive Code Starts From Here*/
+
 @media screen and (max-width: 1080px) {
     .Container{
         max-width: 100%;
@@ -31,6 +33,4 @@
     flex-direction: column;
     gap: 2rem;        
 }
-   
-
 }
