@@ -24,7 +24,11 @@
     align-items: center;
     gap: 20rem;
     margin-top: 3rem;
-    margin-left: 5rem;
+    justify-content: center;
+    margin-left: 0;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 40px 0;
 }
 .TopHeading > h1{
     color: #40404c;

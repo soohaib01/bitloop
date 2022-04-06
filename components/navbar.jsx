@@ -5,8 +5,11 @@ import Link  from 'next/link'
 import Mega from '../components/Home/megamenu'
 import {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import {coffee} from '@fortawesome/free-solid-svg-icons'
 import Head from 'next/head'
+
+
+
 const navbar = () => {
   
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -24,6 +27,7 @@ const navbar = () => {
   </Head>
       <div className={Nav.mainContainer}>
     
+          {/* eslint-disable-next-line jsx-a11y/alt-text */}
           <img src='https://global-uploads.webflow.com/6183aca39d7d1eea0ba31f1f/6184bd8f4ed3b9dc15f317de_bitloops-logo_320x80.png'
         className={Nav.LogoContain}
         />
@@ -31,10 +35,10 @@ const navbar = () => {
           <li><Link href="/">Home</Link></li>
           <li className={Nav.HoverShow} onClick={HandleClick}><Link href="#">Community</Link>
           {/* <FontAwesomeIcon
-        icon={faChevronDown}
+        icon="coffee"
         style={{ fontSize: 12,marginLeft:8,cursor:'pointer', color: "black" }}
       /> */}
-      
+      <FontAwesomeIcon icon="fa-brands fa-github" />
       </li>
           {/* <div 
           style={{

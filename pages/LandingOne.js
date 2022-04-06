@@ -19,14 +19,14 @@ const LandingOne = () => {
       <Offer />
       {/* Code Section */}
        {/* Table formatting Throguht props  */}
-       <Table />
-      <Code />
+      
+      {/* <Code /> */}
       {/* Community */}
       <Community />
       {/* Counter */}
-      <Counter />
+      {/* <Counter /> */}
       {/* Tech Stacks */}
-      <Tech />
+      <Table />
      
     </div>
   );

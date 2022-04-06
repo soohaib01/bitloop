@@ -30,7 +30,10 @@
   margin-right: 20px;
   margin-bottom: 4px;
 }
-
+.Git{
+  width: 17px;
+  height: 17px;
+}
 .BtnStyleOne {
   font-size: 1rem;
   padding: 12px 20px;

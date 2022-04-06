@@ -7,14 +7,14 @@ const topSection = () => {
       <div className={Styles.InnerContainer}>
         <div className={Styles.RightContainer}>
           <div className={Styles.BtnTopRounded}>
-            <p>Lorem ipsum dolor sit sit lorem</p>
+            <p>Self-hosted launch. Managed cloud coming soon</p>
           </div>
           <div className={Styles.Heading}>
             <h1>Develop backends 10X faster with Bitloops</h1>
           </div>
           <div className={Styles.Content}>
-            <p>Appwrite is a self-hosted backend-as-a-service platform 
-              that provides developers with all the core APIs required to build any application.</p>
+          <p>Make any database realtime, create APIs in seconds,
+             deploy them in milliseconds.​</p>
           </div>
           <div className={Styles.BtnGroup}>
             <button className={Styles.BtnOne}>Get Stared</button>

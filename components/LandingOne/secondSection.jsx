@@ -10,13 +10,13 @@ const secondSection = () => {
             <div className={Styles.InnerContainer}>
                 <div className={Styles.RightContainer}>
                    <div className={Styles.Heading}>
-                       <h1>Sign Up Now for Free Cloud Credits</h1>
+                       <h1>Stay in the loop! Bitloops has only just launched!</h1>
                    </div>
                    <div className={Styles.Content}>
-                       <p>Deploying Bitloops has never been easier. Secure your free credits for Bitloops Cloud now by signing up.</p>
+                       <p>We aim to launch several cool features over the next few months, including a managed cloud service. Subscribe to get updated first.</p>
                    </div>
                    <div className={Styles.NewsLeytter}>
-                       <input type="text" placeholder='Enter Your Email to Subscribe' className={Styles.EmailBox} />
+                       <input type="text" placeholder='Enter Email' className={Styles.EmailBox} />
                        <button className={Styles.EmailBtn} onClick={notify}>Get Notified</button>
                        <ToastContainer />
                    </div>

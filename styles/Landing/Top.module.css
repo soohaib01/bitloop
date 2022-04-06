@@ -34,7 +34,7 @@
 }
 .BtnTopRounded {
   background: #32c671;
-  width: 40%;
+  width: 65%;
   border-radius: 20px;
   padding: 2px;
 }
@@ -104,7 +104,7 @@
   }
   .BtnTopRounded {
     width: 100%;
-    max-width: 50%;
+    max-width: 94%;
     text-align: center;
   }
   .RightContainer {
