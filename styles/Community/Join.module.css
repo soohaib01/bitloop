@@ -52,3 +52,24 @@
     font-size: 1.1rem;
     width: 10rem;
 }
+
+@media screen and (max-width: 1080px) {
+    .Container{
+        width: 100%;
+        margin: 40px auto;
+        margin-left: 20px;
+    }
+    .One{
+        width: 20%;
+        text-align: left;
+    }
+    
+    .Two{
+        width: 80%;
+        text-align: left;
+    }
+    .BtnOne{
+        margin-left: 0rem;
+    }
+  
+}
