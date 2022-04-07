@@ -59,10 +59,10 @@ const navbar = () => {
       <div className={Nav.RightContainer}>
       <ul className={Nav.Listing}>
   
-        <img src="Github-Mark.png" alt='Github' style={{
-          width:'30px',
-          height:'30px',
-          marginTop:'4px',
+        <img src="github.jpg" alt='Github' style={{
+          width:'25px',
+          height:'25px',
+          marginTop:'6px',
           cursor:'pointer',
           transition:'0.4s ease'
         }}/>
