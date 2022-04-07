@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+.Container{
+    display: flex;
+    max-width: 1280px;
+    margin: 80px auto 0;
+    justify-content: center;
+    align-items: center;
+}
+.InnerContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.Content > p{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    font-weight: 400;
+}
+
+.Content{
+    text-align: center;
+    padding: 20px;
+}
+
+.Content > h1{
+    margin-top: 1.8rem;
+    font-family: "Poppins", sans-serif;
+    color: #40404c;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.SecondContent{
+
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+.SecondContent > p {
+    font-family: "Poppins", sans-serif;
+    color: #40404c;
+    font-size: 23px;
+    opacity: .75;
+}
+
+.BtnGroup{
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.BtnOne{
+    padding: 13px 30px;
+    font-size: 1.3rem;;
+   background: none;
+   outline: none;
+   border: 1px solid #8113e7;
+   background: #8113e7;
+   font-family: "Poppins", sans-serif;
+   border-radius: 50px;
+   color: white;
+   cursor: pointer;
+} 
+.BtnTwo{
+    padding: 13px 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+   background: none;
+   outline: none;
+   border: none;
+
+   border: 1px solid #8113e7;
+
+   border-radius: 50px;
+   cursor: pointer;
+} 
+
+@media screen and (max-width: 1080px) {
+    
+.Container{
+   
+    width: 100%;
+    margin: 0 auto; 
+}
+.InnerContainer{
+   text-align: center !important;
+
+    width: 100%;
+    margin: 20px;
+}
+.BtnGroup{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.Content > h1{
+    margin-top: 1.8rem;
+    font-family: "Poppins", sans-serif;
+    color: #40404c;
+    font-weight: 700;
+    font-size: 30px;
+}
+.SecondContent >  p{
+    font-size: 1.2rem;
+}
+}

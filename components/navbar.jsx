@@ -33,7 +33,7 @@ const navbar = () => {
         />
         <ul className={Nav.Listing}>
           <li><Link href="/">Home</Link></li>
-          <li className={Nav.HoverShow} onClick={HandleClick}><Link href="#">Community</Link>
+          <li className={Nav.HoverShow} onClick={HandleClick}><Link href="/community">Community</Link>
           {/* <FontAwesomeIcon
         icon="coffee"
         style={{ fontSize: 12,marginLeft:8,cursor:'pointer', color: "black" }}
@@ -59,7 +59,15 @@ const navbar = () => {
       <div className={Nav.RightContainer}>
       <ul className={Nav.Listing}>
   
-          <li><Link href="https://github.com/bitloops/bitloops">Star us on Github</Link></li>
+        <img src="Github-Mark.png" alt='Github' style={{
+          width:'30px',
+          height:'30px',
+          marginTop:'4px',
+          cursor:'pointer',
+          transition:'0.4s ease'
+        }}/>
+          <li>
+            <Link href="https://github.com/bitloops/bitloops">Star us on Github</Link></li>
           
           <li><Link href="/">Sign In</Link></li>
         

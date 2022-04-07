@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+.Container{
+    max-width: 1280px;
+    margin: 80px auto 0;
+}
+
+.Heading{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.Heading > h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: black;
+    opacity: .80;
+}
+.Profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainProfile{
+    display: flex;
+    gap: 10rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.Profile > h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.ProfileImage{
+    width: 130px;
+    border-radius: 70px;
+}
+.Btn{
+     margin-top: 4rem;
+
+
+     display: flex;
+    justify-content: center;
+}
+
+.BtnOne{
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    background: none;
+    outline: none;
+    border: 1px solid #8113e7;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+@media screen and (max-width: 1080px) {
+    .Container{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .Profile{
+    text-align: center !important;
+    display: block;
+    margin-bottom: 2rem;
+    }
+    
+    .MainProfile{
+        display: block;
+        text-align: center;
+    }
+}

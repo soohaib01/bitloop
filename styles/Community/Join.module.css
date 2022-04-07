@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+.Container{
+    max-width: 1280px;
+    margin: 80px auto 0;
+}
+
+.Content > h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    opacity: .90;
+}
+
+.Content > p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    opacity: .75;
+}
+
+.MainBox{
+    padding: 10px;
+    margin-top: 20px;
+}
+.One{
+    width: 6rem;
+    text-align: left;
+}
+
+.Two{
+    width: 100%;
+    text-align: left;
+}
+.MainBox >  th{
+    font-family: "Poppins", sans-serif;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    opacity: .75;
+    padding: 20px;
+}
+.MainBox > tr > td{
+    padding: 20px;
+}
+
+.BtnOne{
+    border: none;
+    border-radius: 50px;
+    background: #8113e7;
+    padding: 5px 15px;
+    color: white;
+    margin-top:20px;
+    font-size: 1.1rem;
+    width: 10rem;
+}
