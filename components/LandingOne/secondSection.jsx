@@ -17,7 +17,7 @@ const secondSection = () => {
                    </div>
                    <div className={Styles.NewsLeytter}>
                        <input type="text" placeholder='Enter Email' className={Styles.EmailBox} />
-                       <button className={Styles.EmailBtn} onClick={notify}>Get Notified</button>
+                       <button className={Styles.EmailBtn} onClick={notify}>Subscribe</button>
                        <ToastContainer />
                    </div>
                    <div className={Styles.LearnMoreLink}>

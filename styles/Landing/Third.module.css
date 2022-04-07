@@ -33,7 +33,8 @@
 }
 
 .FirstLayer {
-  width: 32%;
+  width: 25%;
+  margin: 0 1%;
 }
 .ContentP {
   margin-top: 10px;
@@ -43,7 +44,7 @@
   font-size: 14px;
 }
 #MiddleLayer{
-  margin: 0 4%;
+  margin: 0 0%;
 }
 
 @media screen and (max-width: 1080px) {

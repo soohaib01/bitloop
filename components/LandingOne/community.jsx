@@ -18,7 +18,7 @@ const community = () => {
                     </a>
                 </div>
                 <div className={Styles.Community}>
-                    <a href="https://twitter.com/thebitloops​" target="_blank" rel="noreferrer">
+                    <a href="https://twitter.com/thebitloops" target="_blank" rel="noreferrer">
                     <img src="/twitter.png" alt="Community Image" className={Styles.Image} /> 
                     <h4 style={{textAlign:'center'}}>Twitter.com</h4>
                     </a>
