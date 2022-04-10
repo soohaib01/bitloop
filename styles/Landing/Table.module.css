@@ -11,35 +11,37 @@
 
 .InnerContainer > h1{
     color: #40404c;
-font-size: 1.7em;
-font-weight: 400;
-font-family: "Poppins" ,sans-serif;
-text-transform: capitalize;
-text-align: left;
-font-weight: 400;
+    font-size: 1.7em;
+    font-weight: 400;
+    font-family: "Poppins" ,sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 400;
 }
 .TableHead{
     width: 100%;
-margin-top: 0.5rem;
-cursor: pointer;
-border-radius: 5px;
-background: #fff;
-box-shadow: none;
-padding: 20px;
-text-align: left;
-border-spacing: 0;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: none;
+    padding: 20px;
+    text-align: left;
+    border-spacing: 0;
 }
 .TableHead > th{
     border: 1px solid #ddd;
-background: #f6f6f6;
-color: #000;
-font-size: 17px;
+    background: #fff;
+ 
+    text-align: center;
+    color: #000;
+    font-size: 17px;
 }
 .TableHead > th{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #666;
-    padding: 20px;
+    padding: 3rem;
     border-right: 1px solid #eee;
     border-top: 1px solid #eee;
 }
@@ -49,7 +51,10 @@ font-size: 17px;
 }
 .FirstChildHead{
     border-right: 1px solid #eee;
-    width: 35%;
+}
+
+.FirstRow{
+    background: #eee;
 }
 
 /* Responsive Code Starts From Here */

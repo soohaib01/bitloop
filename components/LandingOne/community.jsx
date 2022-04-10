@@ -6,7 +6,7 @@ const community = () => {
         <div className={Styles.Container}>
             <div className={Styles.InnerContainer}>
                 <div className={Styles.TopHeading}>
-                    <h1>Join Our Developers Community</h1>
+                    <h1 style={{marginBottom:"4rem",fontSize:'35px',fontWeight:'500'}}>Join Our Developers Community</h1>
                 </div>
                 <div className={Styles.MainCommunity}>
 

@@ -7,6 +7,7 @@ import Counter from "../components/LandingOne/counter";
 import Tech from "../components/LandingOne/techStack";
 import Offer from "../components/LandingOne/whatWeOffer";
 import Table from "../components/LandingOne/Table";
+import Feature from '../components/LandingOne/Featurebox'
 const LandingOne = () => {
   return (
     <div>
@@ -27,6 +28,9 @@ const LandingOne = () => {
       {/* <Counter /> */}
       {/* Tech Stacks */}
       <Table />
+
+      {/* Table Alternative */}
+      {/* <Feature/> */}
      
     </div>
   );

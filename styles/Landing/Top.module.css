@@ -34,7 +34,7 @@
 }
 .BtnTopRounded {
   background: #32c671;
-  width: 65%;
+  width: 72%;
   border-radius: 20px;
   padding: 2px;
 }
@@ -42,7 +42,7 @@
   color: white;
   font-family: "Poppins", sans-serif;
   padding-left: 10px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .BtnOne {

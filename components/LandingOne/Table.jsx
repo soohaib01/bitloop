@@ -8,17 +8,17 @@ const Table = () => {
 
         <div className={Styles.InnerContainer}>
 
-          <h1>Bitloops Key Differences</h1>
-          <table className={Styles.TableHead}>
+          <h1 style={{marginBottom:"4rem",fontSize:'35px',fontWeight:'500'}}>Bitloops Key Differences</h1>
+          <table className={Styles.TableHead} style={{marginTOp:"4rem"}}>
             <th className={Styles.FirstChildHead}>Criteria</th>
-            <th>Bitloops Serverless Function</th>
-            <th>Firebase Cloud function</th>
-            <th>AWS Lambda Function</th>
-            <tr>
-              <td>Versioning​</td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
+            <th><img src="/logo.png" alt="Bitloops Is Here"/></th>
+            <th><img src="/firebase.png" alt="firebase Is Here"/></th>
+            <th><img src="/amazon.png" alt="firebase Is Here"/></th>
+            <tr className={Styles.FirstRow}>
+              <td >Critieria</td>
+              <td> Bitloops (Serverless functions)​</td>
+              <td> Firebase (Cloud Functions)​</td>
+              <td>AWS (lambda functions)​ </td>
             </tr>
             <tr>
               <td>
