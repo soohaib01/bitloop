@@ -13,8 +13,10 @@ const mainsection = () => {
             <img src="/Bitloops.gif" alt="" className={MainStyles.Image} />
             <p style={{
               fontSize:'15px',
-              textAlign:'right'
-            }}>Bitloop’s liveSync feature connects frontend to backend in realtime!​</p>
+              textAlign:'center'
+            }}
+            className={MainStyles.MobileCenter}
+            >Bitloop’s liveSync feature connects frontend to backend in realtime!​</p>
         </div>
     </div>
   )

@@ -3,17 +3,21 @@
     margin: 0 auto;
     width: 90%;
     }
-    .wrapleft.infofotter {
-    }
+    
     .footerboxwrap {
     display: flex;
     justify-content: space-between;
     padding: 30px 0 37px 0px;
+    border-top: 1px solid #ddd;
     }
     .wrapleft.infofotter {
     max-width: 25%;
     width: 25%;
     }
+
+
+
+
     .wrapright {
     width: 100%;
     max-width: 60%;
@@ -58,6 +62,9 @@
     border-radius: 6px;
     font-weight: bold;
     box-shadow: 1px 1px 4px #666;
+    display: table;
+    margin-top: 10px;
+    float: left;
     }
     
     
@@ -68,6 +75,8 @@
     background: #F6F6F6;
     padding: 20px 120px 20px 20px;
     box-sizing: border-box;
+    max-width: 1280px;
+    margin: 0 auto;
     }
     .emailletterbox h2 {
     margin-bottom: 10px;
@@ -78,6 +87,9 @@
     .formval input {
     border: 0;
     padding: 10px 40px;
+    }
+    .logofooter {
+    max-width: 80%;
     }
     @media screen and (max-width: 767px) {
     .footermains {
