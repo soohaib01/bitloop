@@ -8,10 +8,15 @@ import Tech from "../components/LandingOne/techStack";
 import Offer from "../components/LandingOne/whatWeOffer";
 import Table from "../components/LandingOne/Table";
 import Feature from '../components/LandingOne/Featurebox'
+import HomeMainSection from '../components/Home/mainsection'
 const LandingOne = () => {
   return (
     <div>
-      <TopSection />
+      {/* This is section from home page */}
+      <HomeMainSection/>
+       {/* New Component From Main */}
+      {/* <TopSection /> */}
+      
       {/* This Section is Creating The Component of NewsLetter box */}
       <SecondSection />
       {/* This section as third is Creating the component of services v-2 */}
@@ -19,9 +24,9 @@ const LandingOne = () => {
       {/* What We Offer Section */}
       <Offer />
       {/* Code Section */}
-       {/* Table formatting Throguht props  */}
-      
+            
       {/* <Code /> */}
+
       {/* Community */}
       <Community />
       {/* Counter */}

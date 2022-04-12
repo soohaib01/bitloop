@@ -10,7 +10,7 @@ const secondSection = () => {
 
            
         <div className={Styles.Container}>
-        <h1 className={Styles.Top}>Make any database realtime, create APIs <br></br> in seconds, deploy them in milliseconds.​</h1>
+        <h1 className={Styles.Top}>Make any database realtime, create <br></br> APIs in seconds, deploy them in milliseconds.​</h1>
 
             <div className={Styles.InnerContainer}>
                 <div className={Styles.RightContainer}>

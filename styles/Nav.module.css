@@ -15,6 +15,7 @@
 .Listing {
   display: flex;
 }
+
 .Listing > li {
   list-style-type: none;
   margin: 10px;
