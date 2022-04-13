@@ -67,7 +67,7 @@ const navbar = () => {
           transition:'0.4s ease'
         }}/>
           <li>
-            <Link href="https://github.com/bitloops/bitloops">Star us on Github</Link></li>
+            <Link href="https://github.com/bitloops/bitloops" target="__blank">Star us on Github</Link></li>
           
           <li><Link href="/">Sign In</Link></li>
         

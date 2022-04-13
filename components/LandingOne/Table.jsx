@@ -11,9 +11,9 @@ const Table = () => {
           <h1 style={{marginBottom:"4rem",fontSize:'35px',fontWeight:'500'}}>Bitloops Key Differences</h1>
           <table className={Styles.TableHead} style={{marginTOp:"4rem"}}>
             <th className={Styles.FirstChildHead}>Criteria</th>
-            <th><img src="/logo.png" alt="Bitloops Is Here"/></th>
-            <th><img src="/firebase.png" alt="firebase Is Here"/></th>
-            <th><img src="/amazon.png" alt="firebase Is Here"/></th>
+            <th><img src="/logo.png" alt="Bitloops Is Here" className={Styles.IconImg}/></th>
+            <th><img src="/firebase.png" alt="firebase Is Here" className={Styles.IconImg} /></th>
+            <th><img src="/amazon.png" alt="firebase Is Here" className={Styles.IconImg}/></th>
             <tr className={Styles.FirstRow}>
               <td >Critieria</td>
               <td> Bitloops (Serverless functions)​</td>
