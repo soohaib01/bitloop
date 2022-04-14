@@ -96,6 +96,21 @@ background: #f6f6f6;
     max-width: 100%;
     margin-top: 5rem;
   }
+  /* Email BOx Button Width */
+  .EmailBtn {
+    background-color: #8113e7;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    top: 2px;
+    font-size: 1.1rem;
+    border-radius: 0 10px 10px 0px;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 500 !important;
+    width: 7rem;
+    position: relative;
+    right: 10px;
+  }
   .Top{
     font-weight: 600;
     opacity: .90;

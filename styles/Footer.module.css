@@ -1,3 +1,8 @@
+.footermains{
+    margin-top: 4rem !important;
+}
+
+
 .footerboxwrap {
     max-width: 1280px;
     margin: 0 auto;
@@ -14,10 +19,6 @@
     max-width: 25%;
     width: 25%;
     }
-
-
-
-
     .wrapright {
     width: 100%;
     max-width: 60%;
@@ -110,7 +111,7 @@
             flex-direction: row !important;
         }
         .footermains{
-            max-width: 360px !important;
+            /* max-width: 360px !important; */
             margin: 0 auto !important;
         }
         .fooline{

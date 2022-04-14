@@ -59,6 +59,9 @@
         margin: 40px auto;
         margin-left: 20px;
     }
+    .BtnOne{
+        display: none;
+    }
     .One{
         width: 20%;
         text-align: left;
