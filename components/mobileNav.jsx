@@ -7,9 +7,6 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 
 const mobileNav = () => {
-
-
-
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [renderingSize, setRenderingSize] = useState(true)
 
@@ -24,7 +21,7 @@ const mobileNav = () => {
 
 
       <div className={NavStyle.Holder} style={{
-        transform: renderingSize ? 'translateX(-100%)' : 'translateX(0%)'
+        transform: renderingSize ? 'translateY(-100%)' : 'translateY(0%)'
       }}>
         <div className={NavStyle.Menu}>
           <div className={NavStyle.CutBtn}>
@@ -60,6 +57,7 @@ const mobileNav = () => {
           />
         </button>
       </div>
+
 
     </div>
 
