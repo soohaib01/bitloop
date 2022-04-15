@@ -29,7 +29,7 @@
     cursor: pointer;
     border: none;
 }
-.InnerContainer > button{
+.Btn > button{
     padding: 10px 20px;
     background: #5f00cd;
     color: white;
@@ -42,9 +42,24 @@
     .EmailBox{
         margin-top: 15px;
         padding: 10px 20px;
-        width: 20rem;
+        width: 100%;
         outline: none;
         cursor: pointer;
         border: none;
+    }
+    .Btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .Btn > button{
+        padding: 10px 20px;
+        background: #5f00cd;
+        color: white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
     }
 }

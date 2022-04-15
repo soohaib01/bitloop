@@ -10,7 +10,10 @@ const news = () => {
                     <h1>Stay in the loop! Bitloops has only just launched!</h1>
                     <p>We aim to launch several cool features over the next few months, including a managed cloud service. Subscribe to get updated first.</p>
                    <input type="text" placeholder='Enter Email' className={Styles.EmailBox}  />
-                   <button>Subscribe</button>
+                  <div className={Styles.Btn}>
+                  <button>Subscribe</button>
+
+                  </div>
                 </div>
             </div>
         </div>

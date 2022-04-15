@@ -67,7 +67,10 @@ const footer = () => {
                   </Link>
                 </li>
               </ul>
-              <p className={Styles.fooline}>File to Use - Open Source</p>
+              <div className={Styles.ContainFooter}>
+
+              <p className={Styles.fooline}>Free to Use - Open Source</p>
+              </div>
 
 
 
