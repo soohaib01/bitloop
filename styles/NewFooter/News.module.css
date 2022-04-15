@@ -30,13 +30,17 @@
     border: none;
 }
 .Btn > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
     padding: 10px 20px;
     background: #5f00cd;
     color: white;
     outline: none;
     border: none;
     cursor: pointer;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
 }
 @media screen and (max-width:1080px){
     .EmailBox{

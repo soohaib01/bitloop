@@ -35,10 +35,10 @@ const mobileNav = () => {
           </div>
           <ul>
             <li onClick={handleClick}><Link href="/">Home</Link></li>
-            <li onClick={handleClick}><Link href="/reactBakend">Community</Link></li>
+            <li onClick={handleClick}><Link href="/community">Community</Link></li>
             <li onClick={handleClick}><Link href="/LandingOne">Landing One</Link></li>
             <li onClick={handleClick}><Link href="/about">About</Link></li>
-            <li onClick={handleClick}><Link href="/about">Contact</Link></li>
+            <li onClick={handleClick}><Link href="/contact">Contact</Link></li>
           </ul>
 
         </div>
