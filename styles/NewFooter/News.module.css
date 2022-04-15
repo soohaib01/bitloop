@@ -1,0 +1,50 @@
+.Container{
+    max-width: 1280px;
+    margin: 80px auto 0;   
+}
+
+.InnerContainer{
+    background: #eee;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 5px;
+}
+.InnerContainer:hover{
+    background:rgb(233, 233, 233) ;
+}
+.InnerContainer > h1{
+    font-weight: 500;
+}
+
+.InnerContainer > p{
+
+    margin-top: 10px;
+}
+
+.EmailBox{
+    margin-top: 15px;
+    padding: 10px 20px;
+    width: 25rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.InnerContainer > button{
+    padding: 10px 20px;
+    background: #5f00cd;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+@media screen and (max-width:1080px){
+    .EmailBox{
+        margin-top: 15px;
+        padding: 10px 20px;
+        width: 20rem;
+        outline: none;
+        cursor: pointer;
+        border: none;
+    }
+}

@@ -10,17 +10,6 @@ const footer = () => {
 
 
 
-        <div className={Styles.emailletterbox}>
-
-
-
-          <h2>Stay in the loop! Bitloops has only just launched!</h2>
-          <p>We aim to launch several cool features over the next few months, including a managed cloud service. Subscribe to get updated first.</p>
-          <div className={Styles.formval}>
-            <input className={Styles.fieldsx} type="email" name="email" placeholder='Enter Email' />
-            <input className={Styles.buttonsx} type="submit" name="submit" />
-          </div>
-        </div>
 
 
 
